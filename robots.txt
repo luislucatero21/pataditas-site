@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pataditas-site.vercel.app/sitemap.xml
+Sitemap: https://www.pataditasapp.com/sitemap.xml
