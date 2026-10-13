@@ -71,3 +71,11 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
 .doc th{background:var(--soft)}
 @media (min-width:820px){.hero .wrap{grid-template-columns:1.1fr .9fr}.split{grid-template-columns:1fr 1fr}.split.rev .illus{order:-1}section{padding:64px 0}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn:hover{transform:none}}
+
+/* Real product evidence and a readable usage guide. */
+.app-preview{max-width:330px;margin:18px auto;text-align:center}
+.app-preview img{width:100%;border-radius:26px;border:1px solid var(--line);box-shadow:var(--shadow)}
+.app-preview figcaption{font-size:.85rem;color:var(--muted);margin-top:12px}
+.release-note{font-size:.95rem;color:var(--muted);padding-top:14px;padding-bottom:14px}
+.guide-steps{padding-left:1.4em}.guide-steps li{padding:6px 0}.guide-steps h3{margin:.3em 0}.guide-steps p{margin:.3em 0}
+.sources{font-size:.95rem}.sources h2{font-size:1.3rem}

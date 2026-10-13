@@ -1,57 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-<url><loc>https://www.pataditasapp.com/</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>1.0</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/"/>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/"/>
-  <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/"/>
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/"/>
-</url>
-<url><loc>https://www.pataditasapp.com/es/</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>1.0</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/"/>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/"/>
-  <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/"/>
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/"/>
-</url>
-<url><loc>https://www.pataditasapp.com/pt-br/</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>1.0</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/"/>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/"/>
-  <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/"/>
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/"/>
-</url>
-<url><loc>https://www.pataditasapp.com/privacy.html</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>0.5</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/privacy.html"/>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/privacy.html"/>
-  <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/privacy.html"/>
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/privacy.html"/>
-</url>
-<url><loc>https://www.pataditasapp.com/es/privacy.html</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>0.5</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/privacy.html"/>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/privacy.html"/>
-  <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/privacy.html"/>
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/privacy.html"/>
-</url>
-<url><loc>https://www.pataditasapp.com/pt-br/privacy.html</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>0.5</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/privacy.html"/>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/privacy.html"/>
-  <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/privacy.html"/>
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/privacy.html"/>
-</url>
-<url><loc>https://www.pataditasapp.com/support.html</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>0.5</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/support.html"/>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/support.html"/>
-  <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/support.html"/>
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/support.html"/>
-</url>
-<url><loc>https://www.pataditasapp.com/es/support.html</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>0.5</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/support.html"/>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/support.html"/>
-  <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/support.html"/>
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/support.html"/>
-</url>
-<url><loc>https://www.pataditasapp.com/pt-br/support.html</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>0.5</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/support.html"/>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/support.html"/>
-  <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/support.html"/>
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/support.html"/>
-</url>
+  <url>
+    <loc>https://www.pataditasapp.com/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/" />
+  </url>
+  <url>
+    <loc>https://www.pataditasapp.com/es/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/" />
+  </url>
+  <url>
+    <loc>https://www.pataditasapp.com/pt-br/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/" />
+  </url>
+  <url>
+    <loc>https://www.pataditasapp.com/guide.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/guide.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/guide.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/guide.html" />
+  </url>
+  <url>
+    <loc>https://www.pataditasapp.com/es/guide.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/guide.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/guide.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/guide.html" />
+  </url>
+  <url>
+    <loc>https://www.pataditasapp.com/pt-br/guide.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/guide.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/guide.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/guide.html" />
+  </url>
+  <url>
+    <loc>https://www.pataditasapp.com/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/privacy.html" />
+  </url>
+  <url>
+    <loc>https://www.pataditasapp.com/es/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/privacy.html" />
+  </url>
+  <url>
+    <loc>https://www.pataditasapp.com/pt-br/privacy.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/privacy.html" />
+  </url>
+  <url>
+    <loc>https://www.pataditasapp.com/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/support.html" />
+  </url>
+  <url>
+    <loc>https://www.pataditasapp.com/es/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/support.html" />
+  </url>
+  <url>
+    <loc>https://www.pataditasapp.com/pt-br/support.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.pataditasapp.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.pataditasapp.com/es/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.pataditasapp.com/pt-br/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.pataditasapp.com/support.html" />
+  </url>
 </urlset>
