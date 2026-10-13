@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://luislucatero21.github.io/pataditas-site/sitemap.xml
+Sitemap: https://pataditas-site.vercel.app/sitemap.xml
