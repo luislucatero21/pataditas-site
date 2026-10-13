@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luislucatero21.github.io/pataditas-site/sitemap.xml
