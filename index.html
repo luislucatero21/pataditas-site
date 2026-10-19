@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Pataditas: Baby Kick Counter &amp; Pregnancy Journal</title>
-<meta name="description" content="Log baby kicks and rolls with one tap. A private iPhone pregnancy journal with a contraction timer, free counting and optional Plus charts.">
+<meta name="description" content="Log baby kicks and rolls with one tap. A private pregnancy journal for iPhone and Apple Watch with a contraction timer, free counting and optional Plus charts.">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#FBF6F2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#17151A" media="(prefers-color-scheme: dark)">
@@ -18,7 +18,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Pataditas">
 <meta property="og:title" content="Pataditas: Baby Kick Counter &amp; Pregnancy Journal">
-<meta property="og:description" content="Log baby kicks and rolls with one tap. A private iPhone pregnancy journal with a contraction timer, free counting and optional Plus charts.">
+<meta property="og:description" content="Log baby kicks and rolls with one tap. A private pregnancy journal for iPhone and Apple Watch with a contraction timer, free counting and optional Plus charts.">
 <meta property="og:url" content="https://www.pataditasapp.com/">
 <meta property="og:image" content="https://www.pataditasapp.com/assets/hero-baby.webp">
 <meta property="og:image:alt" content="Pataditas: Baby Kick Counter">
@@ -27,7 +27,7 @@
 <meta property="og:locale:alternate" content="pt_BR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Pataditas: Baby Kick Counter &amp; Pregnancy Journal">
-<meta name="twitter:description" content="Log baby kicks and rolls with one tap. A private iPhone pregnancy journal with a contraction timer, free counting and optional Plus charts.">
+<meta name="twitter:description" content="Log baby kicks and rolls with one tap. A private pregnancy journal for iPhone and Apple Watch with a contraction timer, free counting and optional Plus charts.">
 <meta name="twitter:image" content="https://www.pataditasapp.com/assets/hero-baby.webp">
 <meta name="apple-itunes-app" content="app-id=6821734683">
 <link rel="stylesheet" href="assets/styles.css">
@@ -41,16 +41,24 @@
  "@id": "https://www.pataditasapp.com/#app",
  "name": "Pataditas: Baby Kick Counter",
  "alternateName": "Pataditas",
- "description": "Log baby kicks and rolls with one tap. A private iPhone pregnancy journal with a contraction timer, free counting and optional Plus charts.",
- "operatingSystem": "iOS 26 or later",
+ "description": "Log baby kicks and rolls with one tap. A private pregnancy journal for iPhone and Apple Watch with a contraction timer, free counting and optional Plus charts.",
+ "operatingSystem": "iOS 26 or later, watchOS 26 or later",
  "applicationCategory": "HealthApplication",
  "applicationSubCategory": "Pregnancy",
- "deviceRequirements": "iPhone",
- "availableOnDevice": "iPhone",
+ "deviceRequirements": "iPhone, Apple Watch",
+ "availableOnDevice": "iPhone, Apple Watch",
  "inLanguage": [
   "en",
   "es-MX",
-  "pt-BR"
+  "pt-BR",
+  "de",
+  "fr",
+  "it",
+  "ja",
+  "ko",
+  "zh-Hans",
+  "nl",
+  "sq"
  ],
  "url": "https://www.pataditasapp.com/",
  "image": "https://www.pataditasapp.com/assets/hero-baby.webp",
@@ -88,18 +96,23 @@
    "priceCurrency": "USD"
   }
  ],
- "softwareVersion": "1.0",
+ "softwareVersion": "1.1",
  "featureList": [
   "Movement logging",
   "Contraction timer",
   "7-day free history",
   "Optional Plus charts and PDF reports",
-  "Private iCloud sync"
+  "Private iCloud sync",
+  "Apple Watch app and complications",
+  "Widgets, Live Activity, Siri and Control Center quick logging",
+  "Available in 11 languages"
  ],
  "sameAs": [
   "https://www.instagram.com/pataditasapp/",
   "https://www.facebook.com/pataditasapp/"
- ]
+ ],
+ "installUrl": "https://apps.apple.com/app/id6821734683",
+ "downloadUrl": "https://apps.apple.com/app/id6821734683"
 }
 </script>
 <script type="application/ld+json">
@@ -182,10 +195,18 @@
   },
   {
    "@type": "Question",
+   "name": "Does it work on Apple Watch?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Pataditas includes a companion Apple Watch app (watchOS 26 or later) so you can log movements from your wrist, plus Apple Watch complications. It works together with the iPhone app, which you download from the App Store."
+   }
+  },
+  {
+   "@type": "Question",
    "name": "Which devices and languages are supported?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Pataditas runs on iPhone with iOS 26 or later, in English, Spanish and Brazilian Portuguese."
+    "text": "Pataditas runs on iPhone with iOS 26 or later and on Apple Watch with watchOS 26 or later. It is available in 11 languages: English, Spanish, Brazilian Portuguese, German, French, Italian, Japanese, Korean, Simplified Chinese, Dutch and Albanian."
    }
   }
  ]
@@ -231,7 +252,15 @@
  "inLanguage": [
   "en",
   "es-MX",
-  "pt-BR"
+  "pt-BR",
+  "de",
+  "fr",
+  "it",
+  "ja",
+  "ko",
+  "zh-Hans",
+  "nl",
+  "sq"
  ],
  "publisher": {
   "@id": "https://www.pataditasapp.com/#org"
@@ -252,7 +281,7 @@
  "about": {
   "@id": "https://www.pataditasapp.com/#app"
  },
- "dateModified": "2026-10-13"
+ "dateModified": "2026-10-19"
 }
 </script>
 </head>
@@ -264,14 +293,14 @@
 <nav class="lang" aria-label="Language"><a href="./" hreflang="en" lang="en" title="English" aria-current="page">EN</a><a href="es/" hreflang="es" lang="es" title="Español">ES</a><a href="pt-br/" hreflang="pt-BR" lang="pt-BR" title="Português (Brasil)">PT</a></nav>
 </div></header>
 <main id="main">
-<p class="wrap release-note" id="release">Coming soon on the App Store. The public iPhone release is awaiting Apple review.</p>
 <section class="hero"><div class="wrap">
 <div>
 <div class="app-id"><img src="assets/icon.webp" width="64" height="64" alt="Pataditas app icon: two tiny feet and a heart"><span>Pataditas: Baby Kick Counter</span></div>
 <h1>Count baby kicks without the stress.</h1>
-<p class="lead">Just tap whenever your baby moves. Pataditas groups the movements for you and gently tells you when you reach 10 in 2 hours. No timers, no sessions, no account.</p>
-<a class="btn " href="guide.html" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.200 1.200 9.600.8 1.200 1.700 2.500 3 2.400 1.200 0 1.700-.8 3.100-.8 1.500 0 1.900.8 3.100.8 1.300 0 2.100-1.200 2.900-2.300.9-1.300 1.300-2.600 1.300-2.700-.1 0-2.700-1-2.700-3.200zM14.100 5.800c.6-.8 1.100-1.900.9-3-.9 0-2.100.6-2.700 1.400-.6.700-1.100 1.800-1 2.900 1.100.1 2.200-.5 2.800-1.300z"/></svg><span>See how Pataditas works</span></a>
-<p class="note">iPhone · iOS 26 or later · English, Español, Português</p>
+<p class="lead">Just tap whenever your baby moves. Pataditas groups the movements for you and gently tells you when you reach 10 in 2 hours. No timers, no sessions, no account. Log from your iPhone or your Apple Watch.</p>
+<a class="btn" href="https://apps.apple.com/app/id6821734683" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.200 1.200 9.600.8 1.200 1.700 2.500 3 2.400 1.200 0 1.700-.8 3.100-.8 1.500 0 1.900.8 3.100.8 1.300 0 2.100-1.200 2.900-2.300.9-1.300 1.300-2.600 1.300-2.700-.1 0-2.700-1-2.700-3.200zM14.100 5.800c.6-.8 1.100-1.900.9-3-.9 0-2.100.6-2.700 1.400-.6.700-1.100 1.800-1 2.900 1.100.1 2.200-.5 2.800-1.300z"/></svg><span>Download on the App Store</span></a>
+<p class="note"><a href="guide.html">See how Pataditas works →</a></p>
+<p class="note">iPhone and Apple Watch · iOS 26 and watchOS 26 or later · 11 languages</p>
 </div>
 <div class="illus"><img src="assets/hero-baby.webp" width="800" height="800" alt="Watercolor illustration of a sleeping baby wrapped in a soft blanket inside a pink moon" fetchpriority="high"></div>
 </div></section>
@@ -300,6 +329,7 @@
 <article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>Contraction timer</h3><p>Time contractions and get an alert when you reach the 5-1-1 pattern.</p></article>
 <article class="card"><span class="dot" style="background:#9CC5AE" aria-hidden="true"></span><h3>Week and baby size</h3><p>Follow your pregnancy week and see how big your baby is.</p></article>
 <article class="card"><span class="dot" style="background:#B9A8E0" aria-hidden="true"></span><h3>Log from anywhere</h3><p>Home Screen and Lock Screen widgets, Control Center, Siri and the Action Button.</p></article>
+<article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>Apple Watch app</h3><p>Log movements from your wrist, with complications on your watch face for quick access.</p></article>
 <article class="card"><span class="dot" style="background:#F6C9A8" aria-hidden="true"></span><h3>Daily reminder</h3><p>A soft nudge at the time you choose, to take a quiet moment with your baby.</p></article>
 <article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>Watercolor illustrations</h3><p>Boy, girl or surprise: personalized artwork painted in soft watercolor.</p></article>
 </div></div></section>
@@ -350,7 +380,8 @@
 <details><summary>Is my data private?</summary><div><p>Yes. There is no account, no ads and no tracking, and anonymous usage statistics are optional and off unless you turn them on. Your data stays on your iPhone and in your own private iCloud (CloudKit). The developer cannot see it. Read the full <a href="privacy.html">privacy policy</a>.</p></div></details>
 <details><summary>Does it work offline? What does iCloud do?</summary><div><p>Yes, you can log movements without a connection. If you’re signed in to iCloud, your data syncs privately between your devices through your own iCloud account, and your settings (like your name and due date) sync through iCloud key-value storage. Neither is visible to us.</p></div></details>
 <details><summary>How much does Pataditas cost?</summary><div><p>Counting is free forever. Pataditas Plus adds pattern analysis with charts and a PDF report for your doctor: 7-day free trial, then $3.99 per month or $14.99 per year, or a one-time $19.99 Pregnancy Pass. You can cancel anytime in your iPhone Settings.</p></div></details>
-<details><summary>Which devices and languages are supported?</summary><div><p>Pataditas runs on iPhone with iOS 26 or later, in English, Spanish and Brazilian Portuguese.</p></div></details>
+<details><summary>Does it work on Apple Watch?</summary><div><p>Yes. Pataditas includes a companion Apple Watch app (watchOS 26 or later) so you can log movements from your wrist, plus Apple Watch complications. It works together with the iPhone app, which you download from the App Store.</p></div></details>
+<details><summary>Which devices and languages are supported?</summary><div><p>Pataditas runs on iPhone with iOS 26 or later and on Apple Watch with watchOS 26 or later. It is available in 11 languages: English, Spanish, Brazilian Portuguese, German, French, Italian, Japanese, Korean, Simplified Chinese, Dutch and Albanian.</p></div></details>
 </div></section>
 
 <section><div class="wrap narrow">
@@ -358,10 +389,10 @@
 </div></section>
 
 <section class="band"><div class="wrap split">
-<div><h2>Ready to meet those little feet?</h2><p class="sub">A calm baby kick counter. Just tap when your baby moves.</p><a class="btn alt" href="guide.html" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.200 1.200 9.600.8 1.200 1.700 2.500 3 2.400 1.200 0 1.700-.8 3.100-.8 1.500 0 1.900.8 3.100.8 1.300 0 2.100-1.200 2.900-2.300.9-1.300 1.300-2.600 1.300-2.700-.1 0-2.700-1-2.700-3.200zM14.100 5.800c.6-.8 1.100-1.900.9-3-.9 0-2.100.6-2.700 1.400-.6.700-1.100 1.800-1 2.900 1.100.1 2.200-.5 2.800-1.300z"/></svg><span>See how Pataditas works</span></a></div>
+<div><h2>Ready to meet those little feet?</h2><p class="sub">A calm baby kick counter. Just tap when your baby moves.</p><a class="btn alt" href="https://apps.apple.com/app/id6821734683" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.200 1.200 9.600.8 1.200 1.700 2.500 3 2.400 1.200 0 1.700-.8 3.100-.8 1.500 0 1.900.8 3.100.8 1.300 0 2.100-1.200 2.900-2.300.9-1.300 1.300-2.600 1.300-2.700-.1 0-2.700-1-2.700-3.200zM14.100 5.800c.6-.8 1.100-1.900.9-3-.9 0-2.100.6-2.700 1.400-.6.700-1.100 1.800-1 2.900 1.100.1 2.200-.5 2.800-1.300z"/></svg><span>Download on the App Store</span></a><p class="note"><a href="guide.html">See how Pataditas works →</a></p></div>
 <div class="illus"><img loading="lazy" src="assets/baby-celebrate.webp" width="800" height="800" alt="Watercolor baby celebrating"></div>
 </div></section>
-<section class="wrap sources"><h2>Sources and scope</h2><p>Product information by Kaelux · Updated October 13, 2026</p><ul><li><a href="https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/" rel="noopener">NHS: Your baby’s movements</a></li><li><a href="https://countthekicks.org/faq/" rel="noopener">Count the Kicks: Frequently asked questions</a></li></ul></section>
+<section class="wrap sources"><h2>Sources and scope</h2><p>Product information by Kaelux · Updated October 19, 2026</p><ul><li><a href="https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/" rel="noopener">NHS: Your baby’s movements</a></li><li><a href="https://countthekicks.org/faq/" rel="noopener">Count the Kicks: Frequently asked questions</a></li></ul></section>
 </main>
 <footer><div class="wrap">
 <nav aria-label="Footer"><a href="guide.html">How to use Pataditas</a><a href="privacy.html">Privacy Policy</a><a href="support.html">Support</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">Terms of Use (Apple EULA)</a><a href="mailto:hola@rutmia.com">Contact: hola@rutmia.com</a><a href="https://www.instagram.com/pataditasapp/" rel="noopener">Instagram · @pataditasapp</a><a href="https://www.facebook.com/pataditasapp/" rel="noopener">Facebook · Pataditas</a></nav>
