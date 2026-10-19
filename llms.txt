@@ -1,0 +1,36 @@
+# Pataditas
+
+> Pataditas is a private baby kick counter and pregnancy journal for iPhone and Apple Watch, made by Kaelux in Mexico. You tap whenever your baby moves; there is no session to start or stop, and the app groups your taps and notes when 10 movements have been logged within 2 hours. No account, no ads, no tracking. Pataditas is not a medical device and cannot tell whether a baby is well.
+
+## Key facts
+
+- Platforms: iPhone (iOS 26 or later) and a companion Apple Watch app (watchOS 26 or later). Current version: 1.1, live on the App Store.
+- Languages (11): English, Spanish, Brazilian Portuguese, German, French, Italian, Japanese, Korean, Simplified Chinese, Dutch and Albanian.
+- Core features: one-tap movement logging (kick, roll or hiccup), 24-hour timeline, contraction timer, Apple Watch app with complications, widgets, Live Activity, Siri and Control Center quick logging, daily reminder, PDF report for your doctor (Pataditas Plus) that includes 2-hour counting moments.
+- Privacy: no account. Data stays on your iPhone and in your own private iCloud (CloudKit); the developer cannot see it. Anonymous usage statistics are optional (opt-in) and off by default.
+- Pricing: counting is free. Pataditas Plus (pattern charts, full history, PDF report) has a 7-day free trial; Pregnancy Pass is a one-time purchase. Prices vary by country; purchases are handled by Apple.
+- Medical stance: Pataditas records what you feel; it does not diagnose anything and its 10-in-2-hours grouping is not a health assessment. If your baby moves less than usual, stops moving or the pattern changes, contact your doctor, midwife or maternity unit immediately.
+
+## Download
+
+- [Pataditas on the App Store](https://apps.apple.com/app/id6821734683)
+
+## Pages
+
+- [Home (English)](https://www.pataditasapp.com/): overview, features, pricing and FAQ (includes "Does it work on Apple Watch?")
+- [Inicio (Español)](https://www.pataditasapp.com/es/)
+- [Início (Português do Brasil)](https://www.pataditasapp.com/pt-br/)
+- [How to use Pataditas](https://www.pataditasapp.com/guide.html): how to log movements, Undo, history and what the app cannot tell you
+- [Cómo usar Pataditas](https://www.pataditasapp.com/es/guide.html)
+- [Como usar o Pataditas](https://www.pataditasapp.com/pt-br/guide.html)
+- [Support](https://www.pataditasapp.com/support.html) ([ES](https://www.pataditasapp.com/es/support.html), [PT-BR](https://www.pataditasapp.com/pt-br/support.html))
+- [Privacy Policy](https://www.pataditasapp.com/privacy.html) ([ES](https://www.pataditasapp.com/es/privacy.html), [PT-BR](https://www.pataditasapp.com/pt-br/privacy.html))
+
+## Sources cited by the site
+
+- [NHS: Your baby's movements](https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/)
+- [Count the Kicks: Frequently asked questions](https://countthekicks.org/faq/)
+
+## Contact
+
+- hola@rutmia.com (Kaelux)
