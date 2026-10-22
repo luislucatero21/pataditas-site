@@ -28,6 +28,14 @@ Updated: 2026-10-21
 - [Counting baby kicks: when to start, what is normal, when to call](https://www.pataditasapp.com/kick-counting.html): how many kicks are normal, when movements are first felt, when to start counting, how to count, hiccups vs kicks, what to do if movements reduce, Apple Watch; compares NHS, Count the Kicks and RCOG guidance (English)
 - [Contar las patadas del bebé: cuándo empezar, qué es normal y cuándo llamar](https://www.pataditasapp.com/es/conteo-de-movimientos.html): the same explainer in Spanish for Mexico and Latin America (movimientos fetales)
 - [Contar os chutes do bebê: quando começar, o que é normal e quando procurar ajuda](https://www.pataditasapp.com/pt-br/contagem-de-movimentos.html): the same explainer in Brazilian Portuguese (movimentos fetais)
+- [Tritte zählen: Wann anfangen, wann anrufen](https://www.pataditasapp.com/de/kindsbewegungen-zaehlen.html): the same explainer in German
+- [Compter les mouvements du bébé : quand commencer et quand appeler](https://www.pataditasapp.com/fr/compter-les-mouvements-du-bebe.html): the same explainer in French
+- [Contare i calcetti del bebè: quando iniziare e quando chiamare](https://www.pataditasapp.com/it/contare-i-movimenti-fetali.html): the same explainer in Italian
+- [胎動の数え方：いつから始める？ いつ連絡する？](https://www.pataditasapp.com/ja/taido-kazoekata.html): the same explainer in Japanese
+- [아기 태동 세기: 언제 시작하고 언제 연락할까요](https://www.pataditasapp.com/ko/taedong-seneun-bangbeop.html): the same explainer in Korean
+- [数胎动：何时开始、何时联系医生](https://www.pataditasapp.com/zh-hans/taidong-jishu.html): the same explainer in Simplified Chinese
+- [Schopjes tellen: wanneer beginnen en wanneer bellen](https://www.pataditasapp.com/nl/schopjes-tellen.html): the same explainer in Dutch
+- [Numërimi i shkelmave të bebit: kur të nisësh dhe kur të telefonosh](https://www.pataditasapp.com/sq/numerimi-i-levizjeve-te-bebit.html): the same explainer in Albanian
 
 ## Pages
 
@@ -37,8 +45,24 @@ Updated: 2026-10-21
 - [How to count baby kicks with an iPhone or Apple Watch](https://www.pataditasapp.com/guide.html): step-by-step app workflow: log movements, Undo, history and what the app cannot tell you
 - [Cómo contar patadas del bebé con iPhone o Apple Watch](https://www.pataditasapp.com/es/guide.html): Spanish translation of the guide
 - [Como contar os chutes do bebê no iPhone ou Apple Watch](https://www.pataditasapp.com/pt-br/guide.html): Brazilian Portuguese translation of the guide
-- [Support](https://www.pataditasapp.com/support.html) ([ES](https://www.pataditasapp.com/es/support.html), [PT-BR](https://www.pataditasapp.com/pt-br/support.html)): sync, restore purchases, cancel, widgets, reminders
-- [Privacy Policy](https://www.pataditasapp.com/privacy.html) ([ES](https://www.pataditasapp.com/es/privacy.html), [PT-BR](https://www.pataditasapp.com/pt-br/privacy.html))
+- [Pataditas: Kindsbewegungen zählen – App für iPhone & Apple Watch](https://www.pataditasapp.com/de/): full German translation of the home page, prices in EUR
+- [So zählst du Tritte mit iPhone oder Apple Watch](https://www.pataditasapp.com/de/guide.html): German translation of the guide
+- [Pataditas : mouvements du bébé, compteur pour iPhone et Apple Watch](https://www.pataditasapp.com/fr/): full French translation of the home page, prices in EUR
+- [Comment compter les petits coups du bébé avec un iPhone ou une Apple Watch](https://www.pataditasapp.com/fr/guide.html): French translation of the guide
+- [Pataditas: Conta calci bebè | Movimenti fetali e contrazioni](https://www.pataditasapp.com/it/): full Italian translation of the home page, prices in EUR
+- [Come contare i calcetti del bebè con iPhone o Apple Watch](https://www.pataditasapp.com/it/guide.html): Italian translation of the guide
+- [Pataditas：胎動カウント・キック記録](https://www.pataditasapp.com/ja/): full Japanese translation of the home page, prices in JPY
+- [iPhoneとApple Watchで胎動を数える方法](https://www.pataditasapp.com/ja/guide.html): Japanese translation of the guide
+- [Pataditas: 태동 카운터 | iPhone·Apple Watch 태동 기록 앱](https://www.pataditasapp.com/ko/): full Korean translation of the home page, prices in KRW
+- [iPhone이나 Apple Watch로 아기 태동 세는 방법](https://www.pataditasapp.com/ko/guide.html): Korean translation of the guide
+- [Pataditas：数胎动 胎动计数器 | iPhone和Apple Watch](https://www.pataditasapp.com/zh-hans/): full Simplified Chinese translation of the home page, prices in CNY
+- [如何用iPhone或Apple Watch数胎动](https://www.pataditasapp.com/zh-hans/guide.html): Simplified Chinese translation of the guide
+- [Pataditas: Schopjes tellen | Babybewegingen voor iPhone en Apple Watch](https://www.pataditasapp.com/nl/): full Dutch translation of the home page, prices in EUR
+- [Schopjes tellen met iPhone of Apple Watch](https://www.pataditasapp.com/nl/guide.html): Dutch translation of the guide
+- [Pataditas: Numëruesi i shkelmave dhe lëvizjeve të bebit](https://www.pataditasapp.com/sq/): full Albanian translation of the home page, prices in USD
+- [Si të numërosh shkelmat e bebit me iPhone ose Apple Watch](https://www.pataditasapp.com/sq/guide.html): Albanian translation of the guide
+- [Support](https://www.pataditasapp.com/support.html) ([ES](https://www.pataditasapp.com/es/support.html), [PT-BR](https://www.pataditasapp.com/pt-br/support.html), [DE](https://www.pataditasapp.com/de/support.html), [FR](https://www.pataditasapp.com/fr/support.html), [IT](https://www.pataditasapp.com/it/support.html), [JA](https://www.pataditasapp.com/ja/support.html), [KO](https://www.pataditasapp.com/ko/support.html), [ZH-HANS](https://www.pataditasapp.com/zh-hans/support.html), [NL](https://www.pataditasapp.com/nl/support.html), [SQ](https://www.pataditasapp.com/sq/support.html)): sync, restore purchases, cancel, widgets, reminders
+- [Privacy Policy](https://www.pataditasapp.com/privacy.html) ([ES](https://www.pataditasapp.com/es/privacy.html), [PT-BR](https://www.pataditasapp.com/pt-br/privacy.html), [DE](https://www.pataditasapp.com/de/privacy.html), [FR](https://www.pataditasapp.com/fr/privacy.html), [IT](https://www.pataditasapp.com/it/privacy.html), [JA](https://www.pataditasapp.com/ja/privacy.html), [KO](https://www.pataditasapp.com/ko/privacy.html), [ZH-HANS](https://www.pataditasapp.com/zh-hans/privacy.html), [NL](https://www.pataditasapp.com/nl/privacy.html), [SQ](https://www.pataditasapp.com/sq/privacy.html))
 
 ## FAQ answers (deep links, English)
 
