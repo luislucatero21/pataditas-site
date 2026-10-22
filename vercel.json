@@ -19,7 +19,10 @@
     { "source": "/es/support", "destination": "/es/support.html", "permanent": true },
     { "source": "/pt-br/guide", "destination": "/pt-br/guide.html", "permanent": true },
     { "source": "/pt-br/privacy", "destination": "/pt-br/privacy.html", "permanent": true },
-    { "source": "/pt-br/support", "destination": "/pt-br/support.html", "permanent": true }
+    { "source": "/pt-br/support", "destination": "/pt-br/support.html", "permanent": true },
+    { "source": "/kick-counting", "destination": "/kick-counting.html", "permanent": true },
+    { "source": "/es/conteo-de-movimientos", "destination": "/es/conteo-de-movimientos.html", "permanent": true },
+    { "source": "/pt-br/contagem-de-movimentos", "destination": "/pt-br/contagem-de-movimentos.html", "permanent": true }
   ],
   "headers": [
     {

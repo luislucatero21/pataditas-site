@@ -79,3 +79,10 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
 .release-note{font-size:.95rem;color:var(--muted);padding-top:14px;padding-bottom:14px}
 .guide-steps{padding-left:1.4em}.guide-steps li{padding:6px 0}.guide-steps h3{margin:.3em 0}.guide-steps p{margin:.3em 0}
 .sources{font-size:.95rem}.sources h2{font-size:1.3rem}
+
+/* Answer-hub pages and the safety panel under the home hero. */
+.safety{padding:0 0 40px}
+.doc .card h2{margin-top:0}
+.doc .card ul{margin:.6em 0 0;padding-left:1.2em}
+.doc .card li{margin:.5em 0}
+.doc ul li{margin:.4em 0}
