@@ -2,34 +2,65 @@
 
 > Pataditas is a private baby kick counter and pregnancy journal for iPhone and Apple Watch, made by Kaelux in Mexico. You tap whenever your baby moves; there is no session to start or stop, and the app groups your taps and notes when 10 movements have been logged within 2 hours. No account, no ads, no tracking. Pataditas is not a medical device and cannot tell whether a baby is well.
 
+Updated: 2026-10-21
+
 ## Key facts
 
-- Platforms: iPhone (iOS 26 or later) and a companion Apple Watch app (watchOS 26 or later). Current version: 1.1, live on the App Store.
-- Languages (11): English, Spanish, Brazilian Portuguese, German, French, Italian, Japanese, Korean, Simplified Chinese, Dutch and Albanian.
-- Core features: one-tap movement logging (kick, roll or hiccup), 24-hour timeline, contraction timer, Apple Watch app with complications, widgets, Live Activity, Siri and Control Center quick logging, daily reminder, PDF report for your doctor (Pataditas Plus) that includes 2-hour counting moments.
+- Platforms: iPhone (iOS 26 or later) and a companion Apple Watch app (watchOS 26 or later), live on the App Store.
+- Languages (11): English, Spanish, Brazilian Portuguese, German, French, Italian, Japanese, Korean, Simplified Chinese, Dutch and Albanian. The website has full pages in English, Spanish (Mexico) and Brazilian Portuguese.
+- Core features: one-tap movement logging (kick, roll or hiccup), 24-hour timeline, contraction timer, Apple Watch app (tap your wrist per movement; add it to the watch face or Smart Stack; entries sync with the iPhone through your private iCloud), widgets, Live Activity, Siri and Control Center quick logging, daily reminder, PDF report for your doctor (Pataditas Plus).
 - Privacy: no account. Data stays on your iPhone and in your own private iCloud (CloudKit); the developer cannot see it. Anonymous usage statistics are optional (opt-in) and off by default.
 - Pricing: counting is free. Pataditas Plus (pattern charts, full history, PDF report) has a 7-day free trial; Pregnancy Pass is a one-time purchase. Prices vary by country; purchases are handled by Apple.
-- Medical stance: Pataditas records what you feel; it does not diagnose anything and its 10-in-2-hours grouping is not a health assessment. If your baby moves less than usual, stops moving or the pattern changes, contact your doctor, midwife or maternity unit immediately.
+- Medical stance: Pataditas records what you feel; it does not diagnose anything and its 10-in-2-hours grouping is the app's own feature, not a health assessment or medical threshold. If your baby moves less than usual, stops moving or the pattern changes, contact your midwife, doctor or maternity unit immediately.
+
+## Guidance note
+
+- Guidance on counting fetal movements differs. Count the Kicks (US) suggests timing how long it takes to feel 10 movements, starting at week 28 (week 26 if higher risk or expecting more than one baby). The NHS (UK) says there is no set number of movements and you do not need to count, but you should get to know your baby's usual pattern; the RCOG patient leaflet also says there is no specific number of normal movements.
+- Both say to contact your midwife, doctor or maternity unit (provider) right away if movements reduce, stop or change; the NHS adds to call even in the middle of the night and not to wait until the next day.
+- Authorship: written by Luis Angel Lucatero Villanueva, founder of Kaelux, who builds Pataditas. General information, not medical advice. It has not been reviewed by a clinician; medical statements are taken from the sources listed below, last checked 2026-10-21.
 
 ## Download
 
 - [Pataditas on the App Store](https://apps.apple.com/app/id6821734683)
 
+## Explainers (answer pages)
+
+- [Counting baby kicks: when to start, what is normal, when to call](https://www.pataditasapp.com/kick-counting.html): how many kicks are normal, when movements are first felt, when to start counting, how to count, hiccups vs kicks, what to do if movements reduce, Apple Watch; compares NHS, Count the Kicks and RCOG guidance (English)
+- [Contar las patadas del bebé: cuándo empezar, qué es normal y cuándo llamar](https://www.pataditasapp.com/es/conteo-de-movimientos.html): the same explainer in Spanish for Mexico and Latin America (movimientos fetales)
+- [Contar os chutes do bebê: quando começar, o que é normal e quando procurar ajuda](https://www.pataditasapp.com/pt-br/contagem-de-movimentos.html): the same explainer in Brazilian Portuguese (movimentos fetais)
+
 ## Pages
 
-- [Home (English)](https://www.pataditasapp.com/): overview, features, pricing and FAQ (includes "Does it work on Apple Watch?")
-- [Inicio (Español)](https://www.pataditasapp.com/es/)
-- [Início (Português do Brasil)](https://www.pataditasapp.com/pt-br/)
-- [How to use Pataditas](https://www.pataditasapp.com/guide.html): how to log movements, Undo, history and what the app cannot tell you
-- [Cómo usar Pataditas](https://www.pataditasapp.com/es/guide.html)
-- [Como usar o Pataditas](https://www.pataditasapp.com/pt-br/guide.html)
-- [Support](https://www.pataditasapp.com/support.html) ([ES](https://www.pataditasapp.com/es/support.html), [PT-BR](https://www.pataditasapp.com/pt-br/support.html))
+- [Home (English)](https://www.pataditasapp.com/): overview, features, Apple Watch, pricing in USD and FAQ
+- [Inicio (Español)](https://www.pataditasapp.com/es/): full Spanish translation of the home page, prices in MXN
+- [Início (Português do Brasil)](https://www.pataditasapp.com/pt-br/): full Brazilian Portuguese translation of the home page, prices in BRL
+- [How to count baby kicks with an iPhone or Apple Watch](https://www.pataditasapp.com/guide.html): step-by-step app workflow: log movements, Undo, history and what the app cannot tell you
+- [Cómo contar patadas del bebé con iPhone o Apple Watch](https://www.pataditasapp.com/es/guide.html): Spanish translation of the guide
+- [Como contar os chutes do bebê no iPhone ou Apple Watch](https://www.pataditasapp.com/pt-br/guide.html): Brazilian Portuguese translation of the guide
+- [Support](https://www.pataditasapp.com/support.html) ([ES](https://www.pataditasapp.com/es/support.html), [PT-BR](https://www.pataditasapp.com/pt-br/support.html)): sync, restore purchases, cancel, widgets, reminders
 - [Privacy Policy](https://www.pataditasapp.com/privacy.html) ([ES](https://www.pataditasapp.com/es/privacy.html), [PT-BR](https://www.pataditasapp.com/pt-br/privacy.html))
 
-## Sources cited by the site
+## FAQ answers (deep links, English)
 
-- [NHS: Your baby's movements](https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/)
+- [How many kicks (fetal movements) are normal?](https://www.pataditasapp.com/#faq-how-many-normal)
+- [When do babies start kicking, and when should I start counting?](https://www.pataditasapp.com/#faq-when-to-start)
+- [Do the NHS and Count the Kicks agree on counting fetal movements?](https://www.pataditasapp.com/#faq-guidance-differs)
+- [How do you count baby kicks?](https://www.pataditasapp.com/#faq-how-to-count)
+- [Do hiccups count as kicks?](https://www.pataditasapp.com/#faq-hiccups)
+- [What should I do if my baby moves less than usual?](https://www.pataditasapp.com/#faq-less-than-usual)
+- [What does "10 movements in 2 hours" mean?](https://www.pataditasapp.com/#faq-10-in-2)
+- [How does Pataditas compare today with earlier entries?](https://www.pataditasapp.com/#faq-compare-entries)
+- [Is there an Apple Watch kick counter?](https://www.pataditasapp.com/#faq-apple-watch)
+- [Is my data private?](https://www.pataditasapp.com/#faq-privacy)
+- [How much does Pataditas cost?](https://www.pataditasapp.com/#faq-pricing)
+
+The Spanish and Brazilian Portuguese home pages use the same anchors (for example https://www.pataditasapp.com/es/#faq-guidance-differs and https://www.pataditasapp.com/pt-br/#faq-guidance-differs).
+
+## Sources cited by the site (all in English; last checked 2026-10-21)
+
+- [NHS: Your baby's movements](https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/) (page last reviewed 8 July 2024)
 - [Count the Kicks: Frequently asked questions](https://countthekicks.org/faq/)
+- [RCOG: Your baby's movements in pregnancy (patient information leaflet, published February 2019)](https://www.rcog.org.uk/for-the-public/browse-all-patient-information-leaflets/your-babys-movements-in-pregnancy/)
 
 ## Contact
 
