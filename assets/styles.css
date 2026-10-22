@@ -31,9 +31,9 @@ nav.main a:hover{color:var(--rose)}
 .illus img{width:100%}
 .btn{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--bg);padding:14px 26px;border-radius:999px;font-weight:700;text-decoration:none;font-size:1.05rem;box-shadow:var(--shadow)}
 .btn:hover{color:var(--bg);transform:translateY(-1px)}
-.btn.alt{background:var(--rose);color:#fff}
+.btn.alt{background:#A8426A;color:#fff}
 .btn.alt:hover{color:#fff}
-@media (prefers-color-scheme:dark){.btn{background:#F5F4F6;color:#17151A}.btn:hover{color:#17151A}.btn.alt{background:#C2577E}}
+@media (prefers-color-scheme:dark){.btn{background:#F5F4F6;color:#17151A}.btn:hover{color:#17151A}.btn.alt{background:#A8426A}}
 .note{font-size:.9rem;color:var(--muted);margin-top:14px}
 section{padding:48px 0}
 section h2{font-size:clamp(1.6rem,4.5vw,2.2rem);line-height:1.2;margin:0 0 .5em;letter-spacing:-.01em}
