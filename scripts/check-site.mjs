@@ -131,6 +131,15 @@ for (const m of llms.matchAll(/\((https:\/\/www\.pataditasapp\.com\/[^)#\s]*)/g)
 // 8. hashed asset names match their content (vercel.json caches them for a year)
 for (const [from, to] of staleAssets()) fail('assets/' + from, `stale fingerprint, run node scripts/fingerprint-assets.mjs (expected ${to})`);
 
+// 9. every asset gets exactly one Cache-Control rule: stable names 1 day, hashed names 1 year immutable
+const cacheRules = vercel.headers
+  .filter((h) => h.source.startsWith('/assets/:file(') && h.headers.some((x) => x.key === 'Cache-Control'))
+  .map((h) => ({ source: h.source, re: new RegExp('^/assets/(?:' + h.source.slice('/assets/:file('.length, -1) + ')$') }));
+for (const name of fs.readdirSync(path.join(ROOT, 'assets'))) {
+  const hits = cacheRules.filter((r) => r.re.test('/assets/' + name));
+  if (hits.length !== 1) fail('vercel.json', `assets/${name} matches ${hits.length} Cache-Control rules (expected 1)`);
+}
+
 if (errors.length) {
   console.error(errors.join('\n'));
   console.error(`\n${errors.length} problem(s) in ${htmlFiles.length} pages`);
