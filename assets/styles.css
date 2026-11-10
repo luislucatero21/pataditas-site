@@ -94,3 +94,21 @@ footer nav{display:flex;gap:18px;flex-wrap:wrap}
 .doc .card ul{margin:.6em 0 0;padding-left:1.2em}
 .doc .card li{margin:.5em 0}
 .doc ul li{margin:.4em 0}
+
+/* Guide cards on the home pages, the second App Store button under pricing, safety box and tables on guide pages. */
+a.guide-link{display:block;text-decoration:none;color:inherit}
+a.guide-link h3{color:var(--rose-d)}
+a.guide-link:hover h3{text-decoration:underline}
+.cta-row{margin-top:24px}
+.doc .disclaimer{margin:18px 0 8px}
+.doc caption{caption-side:top;text-align:left;padding-bottom:6px}
+.doc th[scope=row]{background:var(--soft);font-weight:700}
+
+/* Phones: brand and language on one row, section links on one scrollable row, so the hero starts higher. */
+@media (max-width:600px){
+header.top nav.main{order:3;width:100%;flex-wrap:nowrap;overflow-x:auto;gap:20px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+header.top nav.main::-webkit-scrollbar{display:none}
+header.top nav.main a{white-space:nowrap;padding:10px 0;min-height:44px;display:inline-flex;align-items:center}
+.doc table{font-size:.9rem}
+.doc th,.doc td{padding:6px 7px}
+}

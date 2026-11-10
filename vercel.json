@@ -70,7 +70,13 @@
     { "source": "/sq/guide", "destination": "/sq/guide.html", "permanent": true },
     { "source": "/sq/privacy", "destination": "/sq/privacy.html", "permanent": true },
     { "source": "/sq/support", "destination": "/sq/support.html", "permanent": true },
-    { "source": "/sq/numerimi-i-levizjeve-te-bebit", "destination": "/sq/numerimi-i-levizjeve-te-bebit.html", "permanent": true }
+    { "source": "/sq/numerimi-i-levizjeve-te-bebit", "destination": "/sq/numerimi-i-levizjeve-te-bebit.html", "permanent": true },
+    { "source": "/baby-moving-less", "destination": "/baby-moving-less.html", "permanent": true },
+    { "source": "/timing-contractions", "destination": "/timing-contractions.html", "permanent": true },
+    { "source": "/es/bebe-se-mueve-menos", "destination": "/es/bebe-se-mueve-menos.html", "permanent": true },
+    { "source": "/es/como-contar-contracciones", "destination": "/es/como-contar-contracciones.html", "permanent": true },
+    { "source": "/pt-br/bebe-mexendo-menos", "destination": "/pt-br/bebe-mexendo-menos.html", "permanent": true },
+    { "source": "/pt-br/como-contar-contracoes", "destination": "/pt-br/como-contar-contracoes.html", "permanent": true }
   ],
   "headers": [
     {
