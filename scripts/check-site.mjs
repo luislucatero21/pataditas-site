@@ -5,6 +5,7 @@
 // App Store campaign tokens. Exits 1 on any failure.
 import fs from 'node:fs';
 import path from 'node:path';
+import { plan as staleAssets } from './fingerprint-assets.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const SITE = 'https://www.pataditasapp.com/';
@@ -125,6 +126,18 @@ for (const f of Object.keys(pages)) {
 const llms = fs.readFileSync(path.join(ROOT, 'llms.txt'), 'utf8');
 for (const m of llms.matchAll(/\((https:\/\/www\.pataditasapp\.com\/[^)#\s]*)/g)) {
   if (!pages[fileOf(m[1])]) fail('llms.txt', `links to missing page ${m[1]}`);
+}
+
+// 8. hashed asset names match their content (vercel.json caches them for a year)
+for (const [from, to] of staleAssets()) fail('assets/' + from, `stale fingerprint, run node scripts/fingerprint-assets.mjs (expected ${to})`);
+
+// 9. every asset gets exactly one Cache-Control rule: stable names 1 day, hashed names 1 year immutable
+const cacheRules = vercel.headers
+  .filter((h) => h.source.startsWith('/assets/:file(') && h.headers.some((x) => x.key === 'Cache-Control'))
+  .map((h) => ({ source: h.source, re: new RegExp('^/assets/(?:' + h.source.slice('/assets/:file('.length, -1) + ')$') }));
+for (const name of fs.readdirSync(path.join(ROOT, 'assets'))) {
+  const hits = cacheRules.filter((r) => r.re.test('/assets/' + name));
+  if (hits.length !== 1) fail('vercel.json', `assets/${name} matches ${hits.length} Cache-Control rules (expected 1)`);
 }
 
 if (errors.length) {
