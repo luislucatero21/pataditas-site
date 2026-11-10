@@ -140,6 +140,12 @@ for (const name of fs.readdirSync(path.join(ROOT, 'assets'))) {
   if (hits.length !== 1) fail('vercel.json', `assets/${name} matches ${hits.length} Cache-Control rules (expected 1)`);
 }
 
+// The contact address is hola@pataditasapp.com. Rutmia is another product, so its domain must not
+// reappear in any text file of the site (mailto, visible text, JSON-LD, meta, llms.txt, sitemap).
+for (const f of files.filter((f) => /\.(html|txt|xml|json)$/.test(f))) {
+  if (/rutmia/i.test(fs.readFileSync(path.join(ROOT, f), 'utf8'))) fail(f, 'mentions rutmia; the contact address must be hola@pataditasapp.com');
+}
+
 if (errors.length) {
   console.error(errors.join('\n'));
   console.error(`\n${errors.length} problem(s) in ${htmlFiles.length} pages`);
