@@ -2,12 +2,12 @@
 
 > Pataditas is a private baby kick counter and pregnancy journal for iPhone and Apple Watch, made by Kaelux in Mexico. You tap whenever your baby moves; there is no session to start or stop, and the app groups your taps and notes when 10 movements have been logged within 2 hours. No account, no ads, no tracking. Pataditas is not a medical device and cannot tell whether a baby is well.
 
-Updated: 2026-10-21
+Updated: 2026-11-10
 
 ## Key facts
 
 - Platforms: iPhone (iOS 26 or later) and a companion Apple Watch app (watchOS 26 or later), live on the App Store.
-- Languages (11): English, Spanish, Brazilian Portuguese, German, French, Italian, Japanese, Korean, Simplified Chinese, Dutch and Albanian. The website has full pages in English, Spanish (Mexico) and Brazilian Portuguese.
+- Languages (11): English, Spanish, Brazilian Portuguese, German, French, Italian, Japanese, Korean, Simplified Chinese, Dutch and Albanian. The website has a home page, app guide, kick-counting explainer, support and privacy page in all 11 languages; the guides on reduced movements and on timing contractions exist in English, Spanish (Mexico) and Brazilian Portuguese.
 - Core features: one-tap movement logging (kick, roll or hiccup), 24-hour timeline, contraction timer, Apple Watch app (tap your watch per movement; add it to the watch face or Smart Stack; entries sync with the iPhone through your private iCloud), widgets, Live Activity, Siri and Control Center quick logging, daily reminder, PDF report for your doctor (Pataditas Plus).
 - Privacy: no account. Data stays on your iPhone and in your own private iCloud (CloudKit); the developer cannot see it. Anonymous usage statistics are optional (opt-in) and off by default.
 - Pricing: counting is free. Two paid options unlock Pataditas Plus (pattern charts, full history, PDF report for your doctor): the one-time Pregnancy Pass (whole pregnancy, no renewals, can be shared with your family; USD 7.99 in the US) or Plus monthly with a 7-day free trial (USD 3.99 in the US). There is no yearly plan. Prices vary by country; purchases are handled by Apple.
@@ -15,19 +15,33 @@ Updated: 2026-10-21
 
 ## Guidance note
 
-- Guidance on counting fetal movements differs. Count the Kicks (US) suggests timing how long it takes to feel 10 movements, starting at week 28 (week 26 if higher risk or expecting more than one baby). The NHS (UK) says there is no set number of movements and you do not need to count, but you should get to know your baby's usual pattern; the RCOG patient leaflet also says there is no specific number of normal movements.
-- Both say to contact your midwife, doctor or maternity unit (provider) right away if movements reduce, stop or change; the NHS adds to call even in the middle of the night and not to wait until the next day.
-- Authorship: written by Luis Angel Lucatero Villanueva, founder of Kaelux, who builds Pataditas. General information, not medical advice. It has not been reviewed by a clinician; medical statements are taken from the sources listed below, last checked 2026-10-21.
+- Guidance on counting fetal movements differs by country:
+  - UK (NHS, RCOG): no set number of movements, counting is not required, know your baby's usual pattern; the RCOG says there is not enough evidence for a routine movement chart.
+  - USA (Count the Kicks): time how long it takes to feel 10 movements each day from week 28 (week 26 if higher risk or multiples).
+  - Mexico (IMSS): the IMSS prenatal-care guideline (IMSS-028-08, 2017) describes counting 10 movements in 2 hours as a short check; the IMSS patient page says to go to hospital immediately, any day or time, if the baby's movements decrease or stop.
+  - Brazil (Ministry of Health, Caderneta Brasileira da Gestante 2026): reduced or absent movements are a warning sign needing immediate care, especially more than 4 hours without movement after 20 weeks; SAMU 192.
+- Contractions: the NHS says to call the midwife or maternity unit with regular contractions every 5 minutes or more often (urgently if one lasts over 2 minutes or 6+ in 10 minutes); MedlinePlus (US) says regular, painful contractions every 5 to 10 minutes for 60 minutes; Brazil's Caderneta says go to the maternity unit in the active phase (every 2 to 3 minutes, lasting over 30 seconds). Pataditas' 5-1-1 alert is the app's own setting, not a clinical rule.
+- All of them say to contact your midwife, doctor or maternity unit (provider) right away if movements reduce, stop or change; the NHS adds to call even in the middle of the night and not to wait until the next day.
+- Authorship: written by Luis Angel Lucatero Villanueva, founder of Kaelux, who builds Pataditas. General information, not medical advice. It has not been reviewed by a clinician; medical statements are taken from the sources listed below, last checked 2026-11-10.
 
 ## Download
 
-- [Pataditas on the App Store](https://apps.apple.com/app/id6821734683)
+- [Pataditas on the App Store](https://apps.apple.com/app/apple-store/id6821734683?pt=128089042&ct=llms&mt=8) (free download; App Store ID 6821734683; iPhone with iOS 26 or later, Apple Watch with watchOS 26 or later)
+- Local storefronts: [Mexico](https://apps.apple.com/mx/app/apple-store/id6821734683?pt=128089042&ct=llms&mt=8), [Brazil](https://apps.apple.com/br/app/apple-store/id6821734683?pt=128089042&ct=llms&mt=8), [United States](https://apps.apple.com/us/app/apple-store/id6821734683?pt=128089042&ct=llms&mt=8)
 
 ## Explainers (answer pages)
 
-- [Counting baby kicks: when to start, what is normal, when to call](https://www.pataditasapp.com/kick-counting.html): how many kicks are normal, when movements are first felt, when to start counting, how to count, hiccups vs kicks, what to do if movements reduce, Apple Watch; compares NHS, Count the Kicks and RCOG guidance (English)
-- [Contar las patadas del bebé: cuándo empezar, qué es normal y cuándo llamar](https://www.pataditasapp.com/es/conteo-de-movimientos.html): the same explainer in Spanish for Mexico and Latin America (movimientos fetales)
-- [Contar os chutes do bebê: quando começar, o que é normal e quando procurar ajuda](https://www.pataditasapp.com/pt-br/contagem-de-movimentos.html): the same explainer in Brazilian Portuguese (movimentos fetais)
+Every guide opens with a safety notice, a direct answer and question headings, names its sources with the date checked, and carries FAQPage and Article structured data.
+
+- [Counting baby kicks: when to start, what is normal, when to call](https://www.pataditasapp.com/kick-counting.html): how many kicks are normal, when movements are first felt, when to start counting, how to count, hiccups vs kicks, what to do if movements reduce, Apple Watch; table comparing UK, US, Mexico and Brazil guidance (English)
+- [Baby moving less than usual? What to do now, and what happens at the check](https://www.pataditasapp.com/baby-moving-less.html): call now; why reduced movement matters; no home dopplers; babies do not move less at the end of pregnancy; no cold or sugary drinks first; what the RCOG describes at the check (heart-rate monitoring, scan); what to say; call again if it recurs (English)
+- [How to time contractions, and when to call your midwife or go to hospital](https://www.pataditasapp.com/timing-contractions.html): start-to-start timing; NHS, MedlinePlus, Brazil and Mexico thresholds in a table; urgent signs; Braxton Hicks; what the 5-1-1 alert means; going in early; kick counter vs contraction timer (English)
+- [Contar las patadas del bebé: cuándo empezar, qué es normal y cuándo ir al hospital](https://www.pataditasapp.com/es/conteo-de-movimientos.html): written for Mexico; leads with IMSS guidance (go to hospital immediately if movements decrease; 10 movements in 2 hours in the IMSS clinical guideline), compared with Count the Kicks and the NHS (Spanish)
+- [¿Tu bebé se mueve menos? Qué hacer ahora y qué pasa en la revisión](https://www.pataditasapp.com/es/bebe-se-mueve-menos.html): IMSS-first guide to reduced fetal movements, including the IMSS-recommended assessment (non-stress test and/or amniotic fluid) (Spanish)
+- [Cómo contar las contracciones y cuándo ir al hospital](https://www.pataditasapp.com/es/como-contar-contracciones.html): how to time contractions; IMSS, NIH, MedlinePlus and NHS thresholds; IMSS admits to the labour ward from the active phase (Spanish)
+- [Contar os chutes do bebê: quando começar, o que é normal e quando procurar ajuda](https://www.pataditasapp.com/pt-br/contagem-de-movimentos.html): written for Brazil; leads with the Ministry of Health's Caderneta Brasileira da Gestante 2026 (Brazilian Portuguese)
+- [Bebê mexendo menos? O que fazer agora e o que acontece na avaliação](https://www.pataditasapp.com/pt-br/bebe-mexendo-menos.html): Caderneta-first guide to reduced fetal movements, UBS / maternity / SAMU 192 (Brazilian Portuguese)
+- [Como contar as contrações e quando ir para a maternidade](https://www.pataditasapp.com/pt-br/como-contar-contracoes.html): labour phases and when to go per the Caderneta (active phase: every 2 to 3 minutes, over 30 seconds), warning signs, what to bring to the maternity unit (Brazilian Portuguese)
 - [Tritte zählen: Wann anfangen, wann anrufen](https://www.pataditasapp.com/de/kindsbewegungen-zaehlen.html): the same explainer in German
 - [Compter les mouvements du bébé : quand commencer et quand appeler](https://www.pataditasapp.com/fr/compter-les-mouvements-du-bebe.html): the same explainer in French
 - [Contare i calcetti del bebè: quando iniziare e quando chiamare](https://www.pataditasapp.com/it/contare-i-movimenti-fetali.html): the same explainer in Italian
@@ -80,11 +94,20 @@ Updated: 2026-10-21
 
 The Spanish and Brazilian Portuguese home pages use the same anchors (for example https://www.pataditasapp.com/es/#faq-guidance-differs and https://www.pataditasapp.com/pt-br/#faq-guidance-differs).
 
-## Sources cited by the site (all in English; last checked 2026-10-21)
+## Sources cited by the site (last checked 2026-11-10)
 
 - [NHS: Your baby's movements](https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/) (page last reviewed 8 July 2024)
 - [Count the Kicks: Frequently asked questions](https://countthekicks.org/faq/)
-- [RCOG: Your baby's movements in pregnancy (patient information leaflet, published February 2019)](https://www.rcog.org.uk/for-the-public/browse-all-patient-information-leaflets/your-babys-movements-in-pregnancy/)
+- [RCOG: Your baby's movements in pregnancy (patient information, published February 2019)](https://www.rcog.org.uk/for-the-public/browse-our-patient-information/your-babys-movements-in-pregnancy/)
+- [IMSS: ¿Cuándo debo acudir urgentemente al hospital?](https://www.imss.gob.mx/_maternidad2/estas-embarazada/signos-alarma) (Spanish)
+- [IMSS clinical guideline IMSS-028-08, Control prenatal (2017)](https://www.imss.gob.mx/sites/all/statics/guiasclinicas/028GER.pdf) and [quick reference](https://www.imss.gob.mx/sites/all/statics/guiasclinicas/028GRR.pdf) (Spanish)
+- [IMSS clinical guideline IMSS-052-19, Vigilancia y atención amigable en el trabajo de parto (2019)](https://www.imss.gob.mx/sites/all/statics/guiasclinicas/052GRR.pdf) (Spanish)
+- [Ministério da Saúde: Caderneta Brasileira da Gestante (2026)](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-da-mulher/publicacoes/caderneta-brasileira-da-gestante.pdf/@@download/file) (Portuguese)
+- [NHS: Signs that labour has begun](https://www.nhs.uk/pregnancy/labour-and-birth/signs-of-labour/signs-that-labour-has-begun/) and [The stages of labour and birth](https://www.nhs.uk/pregnancy/labour-and-birth/what-happens/the-stages-of-labour-and-birth/)
+- [MedlinePlus: Am I in labor?](https://medlineplus.gov/ency/patientinstructions/000508.htm) (review date 2026-05-29)
+- [March of Dimes: Contractions and signs of labor](https://www.marchofdimes.org/find-support/topics/birth/contractions-and-signs-labor) (last reviewed December 2025; [Spanish](https://www.marchofdimes.org/es/find-support/topics/birth/contractions-and-signs-labor))
+- [NICHD: ¿Cuándo suele comenzar el trabajo de parto?](https://espanol.nichd.nih.gov/salud/temas/labor-delivery/informacion/trabajo) (Spanish)
+- Count the Kicks FAQ PDFs in [Spanish](https://countthekicks.org/wp-content/uploads/2024/04/CTK-FAQ-Spanish-2024.docx.pdf) and [Portuguese](https://countthekicks.org/wp-content/uploads/2024/04/CTK-FAQ-Portuguese-2024.docx.pdf)
 
 ## Contact
 
