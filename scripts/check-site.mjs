@@ -5,6 +5,7 @@
 // App Store campaign tokens. Exits 1 on any failure.
 import fs from 'node:fs';
 import path from 'node:path';
+import { plan as staleAssets } from './fingerprint-assets.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const SITE = 'https://www.pataditasapp.com/';
@@ -126,6 +127,9 @@ const llms = fs.readFileSync(path.join(ROOT, 'llms.txt'), 'utf8');
 for (const m of llms.matchAll(/\((https:\/\/www\.pataditasapp\.com\/[^)#\s]*)/g)) {
   if (!pages[fileOf(m[1])]) fail('llms.txt', `links to missing page ${m[1]}`);
 }
+
+// 8. hashed asset names match their content (vercel.json caches them for a year)
+for (const [from, to] of staleAssets()) fail('assets/' + from, `stale fingerprint, run node scripts/fingerprint-assets.mjs (expected ${to})`);
 
 if (errors.length) {
   console.error(errors.join('\n'));

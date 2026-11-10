@@ -89,6 +89,15 @@
       ]
     },
     {
+      "source": "/assets/:file([a-z0-9-]+\\.[0-9a-f]{10}\\.[a-z0-9]+)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
       "source": "/(.*)",
       "headers": [
         {
