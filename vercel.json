@@ -77,6 +77,10 @@
     { "source": "/es/como-contar-contracciones", "destination": "/es/como-contar-contracciones.html", "permanent": true },
     { "source": "/pt-br/bebe-mexendo-menos", "destination": "/pt-br/bebe-mexendo-menos.html", "permanent": true },
     { "source": "/pt-br/como-contar-contracoes", "destination": "/pt-br/como-contar-contracoes.html", "permanent": true }
+,
+    { "source": "/apple-watch-kick-counter", "destination": "/apple-watch-kick-counter.html", "permanent": true },
+    { "source": "/es/contador-de-patadas-apple-watch", "destination": "/es/contador-de-patadas-apple-watch.html", "permanent": true },
+    { "source": "/pt-br/contador-de-chutes-apple-watch", "destination": "/pt-br/contador-de-chutes-apple-watch.html", "permanent": true }
   ],
   "headers": [
     {

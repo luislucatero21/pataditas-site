@@ -2,15 +2,16 @@
 
 > Pataditas is a private baby kick counter and pregnancy journal for iPhone and Apple Watch, made by Kaelux in Mexico. You tap whenever your baby moves; there is no session to start or stop, and the app groups your taps and notes when 10 movements have been logged within 2 hours. No account, no ads, no tracking. Pataditas is not a medical device and cannot tell whether a baby is well.
 
-Updated: 2026-11-10
+Updated: 2026-11-24
 
 ## Key facts
 
-- Platforms: iPhone (iOS 26 or later) and a companion Apple Watch app (watchOS 26 or later), live on the App Store.
-- Languages (11): English, Spanish, Brazilian Portuguese, German, French, Italian, Japanese, Korean, Simplified Chinese, Dutch and Albanian. The website has a home page, app guide, kick-counting explainer, support and privacy page in all 11 languages; the guides on reduced movements and on timing contractions exist in English, Spanish (Mexico) and Brazilian Portuguese.
-- Core features: one-tap movement logging (kick, roll or hiccup), 24-hour timeline, contraction timer, Apple Watch app (tap your watch per movement; add it to the watch face or Smart Stack; entries sync with the iPhone through your private iCloud), widgets, Live Activity, Siri and Control Center quick logging, daily reminder, PDF report for your doctor (Pataditas Plus).
-- Privacy: no account. Data stays on your iPhone and in your own private iCloud (CloudKit); the developer cannot see it. Anonymous usage statistics are optional (opt-in) and off by default.
-- Pricing: counting is free. Two paid options unlock Pataditas Plus (pattern charts, full history, PDF report for your doctor): the one-time Pregnancy Pass (whole pregnancy, no renewals, can be shared with your family; USD 7.99 in the US) or Plus monthly with a 7-day free trial (USD 3.99 in the US). There is no yearly plan. Prices vary by country; purchases are handled by Apple.
+- Platforms: iPhone (iOS 26 or later) and a companion Apple Watch app (watchOS 26 or later), live on the App Store. Current version: 1.5.
+- Languages (11): English, Spanish, Brazilian Portuguese, German, French, Italian, Japanese, Korean, Simplified Chinese, Dutch and Albanian. The website has a home page, app guide, kick-counting explainer, support and privacy page in all 11 languages; the guides on reduced movements, on timing contractions and on the Apple Watch kick counter exist in English, Spanish (Mexico) and Brazilian Portuguese.
+- Core features: one-tap movement logging (kick, roll or hiccup), 24-hour timeline and history grouped by day, contraction timer, Apple Watch app (tap your watch per movement; add it to the watch face or Smart Stack; entries sync with the iPhone through your private iCloud), widgets, Live Activity, Siri and Control Center quick logging, daily reminder, PDF report for your doctor (Pataditas Plus), baby look (choose skin tone and hair; the same baby appears in widgets, the Live Activity and on Apple Watch), partner sharing (Pataditas Plus, see below).
+- Partner sharing (new in 1.5, Pataditas Plus): you send an invitation link that works for one person, the first who opens it. Your partner, on their own iPhone with iCloud and Pataditas, sees your movements, history, patterns, the PDF report, the baby's name, pregnancy week and goal, and the baby's look, read-only; they cannot log or edit anything and never see contractions or notes. They can turn on their own Live Activity and alerts when you start counting and when you reach the goal. The partner does not pay. Data goes from your private iCloud through Apple's iCloud sharing (CloudKit); the developer cannot see it. One partner per person; stopping sharing stops new updates, but what the partner already saw cannot be withdrawn.
+- Privacy: no account. Data stays on your iPhone and in your own private iCloud (CloudKit); the developer cannot see it. If you choose partner sharing, your partner's iPhone receives a read-only copy through iCloud sharing. Anonymous usage statistics are optional (opt-in) and off by default.
+- Pricing: counting is free. Two paid options unlock Pataditas Plus (pattern charts, full history, PDF report for your doctor, sharing with your partner): the one-time Pregnancy Pass (whole pregnancy, no renewals, can be shared with your family; USD 7.99 in the US) or Plus monthly with a 7-day free trial (USD 3.99 in the US). There is no yearly plan. Prices vary by country; purchases are handled by Apple.
 - Medical stance: Pataditas records what you feel; it does not diagnose anything and its 10-in-2-hours grouping is the app's own feature, not a health assessment or medical threshold. If your baby moves less than usual, stops moving or the pattern changes, contact your midwife, doctor or maternity unit immediately.
 
 ## Guidance note
@@ -34,6 +35,9 @@ Updated: 2026-11-10
 Every guide opens with a safety notice, a direct answer and question headings, names its sources with the date checked, and carries FAQPage and Article structured data.
 
 - [Counting baby kicks: when to start, what is normal, when to call](https://www.pataditasapp.com/kick-counting.html): how many kicks are normal, when movements are first felt, when to start counting, how to count, hiccups vs kicks, what to do if movements reduce, Apple Watch; table comparing UK, US, Mexico and Brazil guidance (English)
+- [Baby kick counter for Apple Watch: count kicks from your wrist](https://www.pataditasapp.com/apple-watch-kick-counter.html): can Apple Watch track baby kicks by itself (no, you tap), how to count with the Pataditas watch app (tap for a kick, Roll and Hiccup buttons, Undo), what the watch shows, complications and Smart Stack, iCloud sync with the iPhone, partner view, requirements, price (English)
+- [Contador de patadas para Apple Watch: cuenta desde tu muñeca](https://www.pataditasapp.com/es/contador-de-patadas-apple-watch.html): the same Apple Watch page in Spanish
+- [Contador de chutes no Apple Watch: conte pelo pulso](https://www.pataditasapp.com/pt-br/contador-de-chutes-apple-watch.html): the same Apple Watch page in Brazilian Portuguese
 - [Baby moving less than usual? What to do now, and what happens at the check](https://www.pataditasapp.com/baby-moving-less.html): call now; why reduced movement matters; no home dopplers; babies do not move less at the end of pregnancy; no cold or sugary drinks first; what the RCOG describes at the check (heart-rate monitoring, scan); what to say; call again if it recurs (English)
 - [How to time contractions, and when to call your midwife or go to hospital](https://www.pataditasapp.com/timing-contractions.html): start-to-start timing; NHS, MedlinePlus, Brazil and Mexico thresholds in a table; urgent signs; Braxton Hicks; what the 5-1-1 alert means; going in early; kick counter vs contraction timer (English)
 - [Contar las patadas del bebé: cuándo empezar, qué es normal y cuándo ir al hospital](https://www.pataditasapp.com/es/conteo-de-movimientos.html): written for Mexico; leads with IMSS guidance (go to hospital immediately if movements decrease; 10 movements in 2 hours in the IMSS clinical guideline), compared with Count the Kicks and the NHS (Spanish)
@@ -56,7 +60,7 @@ Every guide opens with a safety notice, a direct answer and question headings, n
 - [Home (English)](https://www.pataditasapp.com/): overview, features, Apple Watch, pricing in USD and FAQ
 - [Inicio (Español)](https://www.pataditasapp.com/es/): full Spanish translation of the home page, prices in MXN
 - [Início (Português do Brasil)](https://www.pataditasapp.com/pt-br/): full Brazilian Portuguese translation of the home page, prices in BRL
-- [How to count baby kicks with an iPhone or Apple Watch](https://www.pataditasapp.com/guide.html): step-by-step app workflow: log movements, Undo, history and what the app cannot tell you
+- [How to count baby kicks with an iPhone or Apple Watch](https://www.pataditasapp.com/guide.html): step-by-step app workflow: log movements, Undo, whether Apple Watch can track kicks on its own, history, sharing with your partner and what the app cannot tell you
 - [Cómo contar patadas del bebé con iPhone o Apple Watch](https://www.pataditasapp.com/es/guide.html): Spanish translation of the guide
 - [Como contar os chutes do bebê no iPhone ou Apple Watch](https://www.pataditasapp.com/pt-br/guide.html): Brazilian Portuguese translation of the guide
 - [Pataditas: Kindsbewegungen zählen – App für iPhone & Apple Watch](https://www.pataditasapp.com/de/): full German translation of the home page, prices in EUR
@@ -89,8 +93,11 @@ Every guide opens with a safety notice, a direct answer and question headings, n
 - [What does "10 movements in 2 hours" mean?](https://www.pataditasapp.com/#faq-10-in-2)
 - [How does Pataditas compare today with earlier entries?](https://www.pataditasapp.com/#faq-compare-entries)
 - [Is there an Apple Watch kick counter?](https://www.pataditasapp.com/#faq-apple-watch)
+- [Can Apple Watch track baby kicks?](https://www.pataditasapp.com/#faq-apple-watch-track)
+- [Can my partner see the movements I log?](https://www.pataditasapp.com/#faq-partner)
 - [Is my data private?](https://www.pataditasapp.com/#faq-privacy)
 - [How much does Pataditas cost?](https://www.pataditasapp.com/#faq-pricing)
+- [What does the name Pataditas mean?](https://www.pataditasapp.com/#faq-name)
 
 The Spanish and Brazilian Portuguese home pages use the same anchors (for example https://www.pataditasapp.com/es/#faq-guidance-differs and https://www.pataditasapp.com/pt-br/#faq-guidance-differs).
 

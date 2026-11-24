@@ -96,7 +96,10 @@
   "availability": "https://schema.org/InStock",
   "url": "https://apps.apple.com/app/id6821734683"
  },
- "softwareVersion": "1.3",
+ "softwareVersion": "1.5",
+ "sameAs": [
+  "https://apps.apple.com/app/id6821734683"
+ ],
  "featureList": [
   "태동 기록",
   "진통 타이머",
@@ -105,6 +108,8 @@
   "비공개 iCloud 동기화",
   "Apple Watch 앱과 컴플리케이션",
   "위젯, 실시간 현황, Siri, 제어 센터로 빠른 기록",
+  "파트너와 공유, 파트너 iPhone에서 보기 전용 (Plus)",
+  "아기 모습 선택: 피부색과 머리",
   "11개 언어 지원"
  ],
  "installUrl": "https://apps.apple.com/app/id6821734683",
@@ -202,7 +207,7 @@
    "name": "Pataditas는 얼마인가요?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "세기는 영원히 무료예요. Pataditas Plus는 그래프를 곁들인 패턴 분석과 의사에게 보여 줄 PDF 보고서를 더해 줘요. 임신 기간 내내 쓸 수 있고 갱신이 없으며 가족과 공유할 수 있는 일회성 결제 ₩12,000의 임신 패스, 또는 7일 무료 체험이 있는 Plus 월간 구독(월 ₩6,600) 중에서 고를 수 있어요. 구독은 iPhone 설정에서 언제든 해지할 수 있어요."
+    "text": "세기는 영원히 무료예요. Pataditas Plus는 그래프를 곁들인 패턴 분석, 의사에게 보여 줄 PDF 보고서, 파트너와 공유를 더해 줘요. 임신 기간 내내 쓸 수 있고 갱신이 없으며 가족과 공유할 수 있는 일회성 결제 ₩12,000의 임신 패스, 또는 7일 무료 체험이 있는 Plus 월간 구독(월 ₩6,600) 중에서 고를 수 있어요. 구독은 iPhone 설정에서 언제든 해지할 수 있어요."
    }
   },
   {
@@ -215,10 +220,26 @@
   },
   {
    "@type": "Question",
+   "name": "내가 기록한 태동을 파트너도 볼 수 있나요?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "네, Pataditas Plus로 가능해요. 파트너에게 초대 링크를 보내세요. 링크는 한 사람만, 처음 연 사람만 쓸 수 있어요. 파트너는 iCloud에 로그인한 자신의 iPhone과 Pataditas에서 태동, 기록, 패턴, PDF 보고서, 아기 이름, 임신 주수, 목표를 보기 전용으로 봐요. 기록하거나 수정할 수 없고, 진통 기록과 메모는 볼 수 없어요. 자신의 실시간 현황과, 세기를 시작할 때와 목표에 도달했을 때의 알림을 켤 수 있어요. 공유는 Apple의 iCloud 공유를 통해 이루어지고, 개발자는 볼 수 없어요. 파트너는 비용을 내지 않아요. 공유를 중단하면 새 기록은 더 이상 전달되지 않지만, 이미 본 내용은 되돌릴 수 없어요."
+   }
+  },
+  {
+   "@type": "Question",
    "name": "어떤 기기와 언어를 지원하나요?",
    "acceptedAnswer": {
     "@type": "Answer",
     "text": "Pataditas는 iOS 26 이상의 iPhone과 watchOS 26 이상의 Apple Watch에서 작동해요. 한국어, 영어, 스페인어, 브라질 포르투갈어, 독일어, 프랑스어, 이탈리아어, 일본어, 중국어 간체, 네덜란드어, 알바니아어까지 11개 언어를 지원해요."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Pataditas라는 이름은 무슨 뜻인가요?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "‘Pataditas(파타디타스)’는 멕시코 스페인어로 ‘작은 발차기’라는 뜻이에요. 앱은 멕시코의 Kaelux가 만들고, 창업자는 Luis Angel Lucatero Villanueva예요."
    }
   }
  ]
@@ -303,7 +324,7 @@
  "about": {
   "@id": "https://www.pataditasapp.com/ko/#app"
  },
- "dateModified": "2026-11-10"
+ "dateModified": "2026-11-24"
 }
 </script>
 </head>
@@ -343,21 +364,22 @@
 </div></section>
 
 <section id="features"><div class="wrap">
-<h2>Pataditas의 기능</h2><p class="sub">임신 후반기용이에요. 세기는 무료이고, Plus에서는 패턴 그래프와 PDF 보고서가 추가돼요.</p>
+<h2>Pataditas의 기능</h2><p class="sub">임신 후반기용이에요. 세기는 무료이고, Plus에서는 패턴 그래프, PDF 보고서, 파트너와 공유가 추가돼요.</p>
 <div class="grid">
 <article class="card"><span class="dot" style="background:#9CC5AE" aria-hidden="true"></span><h3>움직임 한 번에 한 번 누르기</h3><p>아기가 움직일 때마다 누르세요. 시작하거나 멈출 세션은 없어요.</p></article>
 <article class="card"><span class="dot" style="background:#F6C9A8" aria-hidden="true"></span><h3>발차기, 구르기, 딸꾹질</h3><p>느낀 것을 골라 주세요. 딸꾹질은 기록에 저장되지만 10회에는 포함되지 않아요.</p></article>
 <article class="card"><span class="dot" style="background:#B9A8E0" aria-hidden="true"></span><h3>2시간 이내 10회</h3><p>Pataditas가 2시간 이내 태동 10회를 감지하면 짧은 애니메이션으로 알려 줘요.</p></article>
-<article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>24시간 타임라인</h3><p>하루 전체를 한눈에 보고, 지난 모든 날의 기록도 확인해요.</p></article>
+<article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>24시간 타임라인</h3><p>하루 전체를 한눈에 보고, 지난 기록도 날짜별로 묶어서 확인해요.</p></article>
 <article class="card"><span class="dot" style="background:#9CC5AE" aria-hidden="true"></span><h3>내 기록 패턴</h3><p>오늘 기록한 태동을 이전 며칠의 기록과 비교해 보세요. 빠진 기록이 있으면 비교가 달라질 수 있으며, 의학적 평가가 아니에요.</p></article>
 <article class="card"><span class="dot" style="background:#B9A8E0" aria-hidden="true"></span><h3>패턴과 그래프</h3><p>가장 활발한 시간대, 추세, 요일별 변화. Pataditas Plus에 포함돼요.</p></article>
 <article class="card"><span class="dot" style="background:#F6C9A8" aria-hidden="true"></span><h3>의사에게 보여 줄 PDF 보고서</h3><p>다음 진료 때 깔끔한 요약을 가져가세요. Pataditas Plus에 포함돼요.</p></article>
+<article class="card"><span class="dot" style="background:#9CC5AE" aria-hidden="true"></span><h3>파트너와 공유</h3><p>파트너가 자신의 iPhone에서 태동, 기록, 임신 주수를 보기 전용으로 볼 수 있어요. 파트너는 비용을 내지 않아요. Pataditas Plus 기능이에요.</p></article>
 <article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>진통 타이머</h3><p>진통 간격을 재고 5-1-1 패턴에 이르면 알림을 받아요.</p></article>
 <article class="card"><span class="dot" style="background:#9CC5AE" aria-hidden="true"></span><h3>임신 주수와 아기 크기</h3><p>임신 주수를 따라가며 아기가 얼마나 컸는지 확인해요.</p></article>
 <article class="card"><span class="dot" style="background:#B9A8E0" aria-hidden="true"></span><h3>어디서든 기록</h3><p>홈 화면과 잠금 화면 위젯, 제어 센터, Siri, 동작 버튼으로 기록해요.</p></article>
 <article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>Apple Watch 앱</h3><p>Apple Watch에서 움직임을 기록하고, 시계 페이스의 컴플리케이션으로 빠르게 열어요.</p></article>
 <article class="card"><span class="dot" style="background:#F6C9A8" aria-hidden="true"></span><h3>매일 알림</h3><p>정해 둔 시간에 알림이 와서 태동 기록을 잊지 않게 해 줘요.</p></article>
-<article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>수채화 그림</h3><p>파랑, 분홍, 중립 색조의 수채화 아기 그림이에요. 남아, 여아, 아직 비밀 중에서 고를 수 있어요.</p></article>
+<article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>수채화 그림</h3><p>남아, 여아, 아직 비밀을 위한 수채화 아기 그림이에요. 아기의 피부색과 머리를 고를 수 있고, 위젯, 실시간 현황, Apple Watch에도 같은 아기가 보여요.</p></article>
 </div></div></section>
 
 <section class="band"><div class="wrap split rev">
@@ -367,6 +389,8 @@
 </div></section>
 
 <section id="apple-watch"><div class="wrap narrow"><h2>Apple Watch에서 쓰는 태동 카운터</h2><p>Pataditas에는 함께 쓰는 Apple Watch 앱(watchOS 26 이상)이 있어요. 움직임이 느껴질 때마다 시계 화면을 누르고, 시계 페이스나 스마트 스택에 Pataditas를 추가해 빠르게 열어 보세요. 기록은 비공개 iCloud를 통해 iPhone 앱과 동기화돼요.</p><p class="note">Apple Watch 앱은 App Store에서 받는 iPhone 앱과 함께 작동해요.</p></div></section>
+
+<section id="partner" class="band"><div class="wrap narrow"><h2>파트너와 태동 기록 공유하기</h2><p>Pataditas Plus로 파트너에게 초대 링크를 보낼 수 있어요. 파트너는 iCloud에 로그인한 자신의 iPhone과 Pataditas에서 태동, 기록, 패턴, PDF 보고서, 아기 이름, 임신 주수, 목표를 보기 전용으로 봐요. 기록하거나 수정할 수 없고, 진통 기록과 메모는 보이지 않아요.</p><p>원하면 파트너가 자신의 실시간 현황과, 세기를 시작할 때와 목표에 도달했을 때의 알림을 켤 수 있어요. 잠금 화면, Siri, 제어 센터, Apple Watch에서 기록한 내용도 앱을 열지 않아도 전달돼요. 링크는 한 사람만, 처음 연 사람만 쓸 수 있어요. 모든 데이터는 Apple의 iCloud 공유를 통해 전달되고, 개발자는 볼 수 없어요. 파트너는 비용을 내지 않아요.</p><p><a href="guide.html#partner">파트너를 초대하는 방법 →</a></p></div></section>
 
 <section><div class="wrap">
 <h2>남아, 여아, 아직 비밀 그림</h2><p class="sub">남아, 여아, 아직 비밀 중에 고르면 앱 전체가 그에 맞춰 칠해져요.</p>
@@ -383,16 +407,17 @@
 <article class="card"><h3>광고도 추적도 없음</h3><p>광고도 없고 추적 도구도 없어요. 익명 사용 통계는 직접 켰을 때만 공유돼요.</p></article>
 <article class="card"><h3>내 iPhone과 iCloud에 저장</h3><p>모든 기록은 내 iPhone과 개인 iCloud(CloudKit)에 저장돼요. 개발자는 볼 수 없어요.</p></article>
 <article class="card"><h3>Apple을 통한 결제</h3><p>결제는 전적으로 Apple이 처리해요. 저희는 결제 정보를 볼 수 없어요.</p></article>
+<article class="card"><h3>공유는 내가 선택해요</h3><p>파트너와 공유하기로 선택하면, 파트너의 iPhone은 Apple의 iCloud 공유를 통해 보기 전용 사본을 받아요. 진통 기록과 메모는 절대 공유되지 않아요.</p></article>
 </div>
 <p style="margin-top:20px"><a href="privacy.html">개인정보 처리방침 전문 읽기 →</a></p>
 </div></section>
 
 <section id="pricing"><div class="wrap">
-<h2>세기는 언제나 무료</h2><p class="sub">태동을 기록하고, 타임라인을 보고, 2시간 이내 10회 축하까지 무료예요. Plus에서는 패턴 그래프, PDF 보고서, 전체 기록이 추가돼요.</p>
+<h2>세기는 언제나 무료</h2><p class="sub">태동을 기록하고, 타임라인을 보고, 2시간 이내 10회 축하까지 무료예요. Plus에서는 패턴 그래프, PDF 보고서, 전체 기록, 파트너와 공유가 추가돼요.</p>
 <div class="plans">
 <article class="card plan"><h3>무료</h3><div class="price">₩0</div><p>언제나 무료</p><ul><li>무제한 태동 기록</li><li>2시간 이내 10회 감지</li><li>24시간 타임라인과 7일 기록</li><li>진통 타이머</li><li>위젯, Siri, 동작 버튼</li></ul></article>
-<article class="card plan feat"><h3>임신 패스</h3><div class="price">₩12,000</div><p>일회성 결제 · 추천</p><ul><li>임신 기간 내내 쓰는 Pataditas Plus</li><li>갱신 없음</li><li>가족과 공유 가능</li><li>무료 기능 모두 포함</li></ul></article>
-<article class="card plan"><h3>Pataditas Plus</h3><div class="price">₩6,600 / 월</div><p>7일 무료 체험 · 언제든 해지</p><ul><li>패턴 분석과 그래프</li><li>의사에게 보여 줄 PDF 보고서</li><li>임신 기간 전체 기록</li><li>무료 기능 모두 포함</li></ul></article>
+<article class="card plan feat"><h3>임신 패스</h3><div class="price">₩12,000</div><p>일회성 결제 · 추천</p><ul><li>임신 기간 내내 쓰는 Pataditas Plus</li><li>갱신 없음</li><li>가족과 공유 가능</li><li>파트너와 공유</li><li>무료 기능 모두 포함</li></ul></article>
+<article class="card plan"><h3>Pataditas Plus</h3><div class="price">₩6,600 / 월</div><p>7일 무료 체험 · 언제든 해지</p><ul><li>패턴 분석과 그래프</li><li>의사에게 보여 줄 PDF 보고서</li><li>임신 기간 전체 기록</li><li>파트너와 공유</li><li>무료 기능 모두 포함</li></ul></article>
 </div>
 <p class="note">가격은 대한민국 기준이며 원화로 표시돼요. App Store에는 사용 중인 국가의 가격이 표시돼요. 임신 패스는 갱신 없는 일회성 결제예요. Plus 월간 구독은 기간이 끝나기 최소 24시간 전에 해지하지 않으면 자동으로 갱신돼요. iPhone 설정에서 언제든 해지할 수 있어요.</p>
 <p class="cta-row"><a class="btn" href="https://apps.apple.com/app/apple-store/id6821734683?pt=128089042&amp;ct=web_ko&amp;mt=8" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.200 1.200 9.600.8 1.200 1.700 2.500 3 2.400 1.200 0 1.700-.8 3.100-.8 1.500 0 1.900.8 3.100.8 1.300 0 2.100-1.200 2.900-2.300.9-1.300 1.300-2.600 1.300-2.700-.1 0-2.700-1-2.700-3.200zM14.100 5.800c.6-.8 1.100-1.900.9-3-.9 0-2.100.6-2.700 1.400-.6.700-1.100 1.800-1 2.900 1.100.1 2.200-.5 2.800-1.300z"/></svg><span>App Store에서 다운로드</span></a></p>
@@ -410,9 +435,11 @@
 <details id="faq-compare-entries"><summary>Pataditas는 오늘 기록을 이전 기록과 어떻게 비교하나요?</summary><div><p>7일간 기록이 쌓이면 Pataditas는 오늘 기록한 태동을 이전 며칠의 기록과 비교해 보여 줘요. 빠진 기록이 있으면 비교가 달라질 수 있어요. 모든 움직임을 측정하거나 아기가 건강한지 알려 줄 수는 없으며, 의학적 평가가 아니에요.</p></div></details>
 <details id="faq-privacy"><summary>내 데이터는 비공개인가요?</summary><div><p>네. 가입도, 광고도, 추적도 없고, 익명 사용 통계는 직접 켜지 않으면 꺼져 있어요. 데이터는 내 iPhone과 개인 iCloud(CloudKit)에만 저장되며 개발자는 볼 수 없어요. <a href="privacy.html">개인정보 처리방침</a> 전문을 읽어 보세요.</p></div></details>
 <details id="faq-offline"><summary>오프라인에서도 되나요? iCloud는 어떤 역할을 하나요?</summary><div><p>네, 연결 없이도 태동을 기록할 수 있어요. iCloud에 로그인해 있으면 내 iCloud 계정을 통해 기기 간에 데이터가 비공개로 동기화되고, 이름이나 출산 예정일 같은 설정은 iCloud 키-값 저장소로 동기화돼요. 둘 다 저희는 볼 수 없어요.</p></div></details>
-<details id="faq-pricing"><summary>Pataditas는 얼마인가요?</summary><div><p>세기는 영원히 무료예요. Pataditas Plus는 그래프를 곁들인 패턴 분석과 의사에게 보여 줄 PDF 보고서를 더해 줘요. 임신 기간 내내 쓸 수 있고 갱신이 없으며 가족과 공유할 수 있는 일회성 결제 ₩12,000의 임신 패스, 또는 7일 무료 체험이 있는 Plus 월간 구독(월 ₩6,600) 중에서 고를 수 있어요. 구독은 iPhone 설정에서 언제든 해지할 수 있어요.</p></div></details>
+<details id="faq-pricing"><summary>Pataditas는 얼마인가요?</summary><div><p>세기는 영원히 무료예요. Pataditas Plus는 그래프를 곁들인 패턴 분석, 의사에게 보여 줄 PDF 보고서, 파트너와 공유를 더해 줘요. 임신 기간 내내 쓸 수 있고 갱신이 없으며 가족과 공유할 수 있는 일회성 결제 ₩12,000의 임신 패스, 또는 7일 무료 체험이 있는 Plus 월간 구독(월 ₩6,600) 중에서 고를 수 있어요. 구독은 iPhone 설정에서 언제든 해지할 수 있어요.</p></div></details>
 <details id="faq-apple-watch"><summary>Apple Watch용 태동 카운터가 있나요?</summary><div><p>네. Pataditas에는 함께 쓰는 Apple Watch 앱(watchOS 26 이상)이 있어요. 움직임이 느껴질 때마다 시계 화면을 누르고, 시계 페이스나 스마트 스택에 Pataditas를 추가하세요. 기록은 비공개 iCloud를 통해 iPhone 앱과 동기화돼요. App Store에서 받는 iPhone 앱과 함께 작동해요.</p></div></details>
+<details id="faq-partner"><summary>내가 기록한 태동을 파트너도 볼 수 있나요?</summary><div><p>네, Pataditas Plus로 가능해요. 파트너에게 초대 링크를 보내세요. 링크는 한 사람만, 처음 연 사람만 쓸 수 있어요. 파트너는 iCloud에 로그인한 자신의 iPhone과 Pataditas에서 태동, 기록, 패턴, PDF 보고서, 아기 이름, 임신 주수, 목표를 보기 전용으로 봐요. 기록하거나 수정할 수 없고, 진통 기록과 메모는 볼 수 없어요. 자신의 실시간 현황과, 세기를 시작할 때와 목표에 도달했을 때의 알림을 켤 수 있어요. 공유는 Apple의 iCloud 공유를 통해 이루어지고, 개발자는 볼 수 없어요. 파트너는 비용을 내지 않아요. 공유를 중단하면 새 기록은 더 이상 전달되지 않지만, 이미 본 내용은 되돌릴 수 없어요.</p></div></details>
 <details id="faq-devices-languages"><summary>어떤 기기와 언어를 지원하나요?</summary><div><p>Pataditas는 iOS 26 이상의 iPhone과 watchOS 26 이상의 Apple Watch에서 작동해요. 한국어, 영어, 스페인어, 브라질 포르투갈어, 독일어, 프랑스어, 이탈리아어, 일본어, 중국어 간체, 네덜란드어, 알바니아어까지 11개 언어를 지원해요.</p></div></details>
+<details id="faq-name"><summary>Pataditas라는 이름은 무슨 뜻인가요?</summary><div><p>‘Pataditas(파타디타스)’는 멕시코 스페인어로 ‘작은 발차기’라는 뜻이에요. 앱은 멕시코의 Kaelux가 만들고, 창업자는 Luis Angel Lucatero Villanueva예요.</p></div></details>
 </div></section>
 
 <section><div class="wrap narrow">
@@ -423,7 +450,7 @@
 <div><h2>다음 태동부터 시작해요</h2><p class="sub">Pataditas는 App Store에서 무료로 받을 수 있어요. 아기가 다음에 움직일 때 화면을 눌러 보세요.</p><a class="btn alt" href="https://apps.apple.com/app/apple-store/id6821734683?pt=128089042&amp;ct=web_ko&amp;mt=8" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.200 1.200 9.600.8 1.200 1.700 2.500 3 2.400 1.200 0 1.700-.8 3.100-.8 1.500 0 1.900.8 3.100.8 1.300 0 2.100-1.200 2.900-2.300.9-1.300 1.300-2.600 1.300-2.700-.1 0-2.700-1-2.700-3.200zM14.100 5.800c.6-.8 1.100-1.900.9-3-.9 0-2.100.6-2.700 1.400-.6.700-1.100 1.800-1 2.900 1.100.1 2.200-.5 2.800-1.300z"/></svg><span>App Store에서 다운로드</span></a><p class="note"><a href="guide.html">Pataditas 사용법 보기 →</a></p></div>
 <div class="illus"><img loading="lazy" src="../assets/baby-celebrate.05bcc6c46e.webp" srcset="../assets/baby-celebrate-400.9c54fe8e1f.webp 400w, ../assets/baby-celebrate-500.d81126a110.webp 500w, ../assets/baby-celebrate-660.71f107b146.webp 660w, ../assets/baby-celebrate.05bcc6c46e.webp 800w" sizes="(min-width:1040px) 486px, (min-width:820px) calc((100vw - 68px) / 2), calc(100vw - 40px)" width="800" height="800" alt="기뻐하는 아기를 그린 수채화"></div>
 </div></section>
-<section class="wrap sources"><h2>출처와 범위</h2><p>제품 정보: Kaelux · 2026년 10월 21일 업데이트. 이 페이지의 의학적 설명은 아래 출처(영어)에서 가져왔으며 2026년 10월 21일에 마지막으로 확인했어요. 일반 정보이며 의학적 조언이 아니고, 의료 전문가의 검토를 받지 않았어요.</p><ul><li><a href="https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/" rel="noopener">NHS: Your baby’s movements (페이지 최종 검토 2024년 7월 8일)</a></li><li><a href="https://countthekicks.org/faq/" rel="noopener">Count the Kicks: Frequently asked questions</a></li><li><a href="taedong-seneun-bangbeop.html">아기 태동 세기: 언제 시작하고, 무엇이 정상이며, 언제 연락할까요</a></li></ul></section>
+<section class="wrap sources"><h2>출처와 범위</h2><p>제품 정보: Kaelux · 2026년 11월 24일 업데이트. 이 페이지의 의학적 설명은 아래 출처(영어)에서 가져왔으며 2026년 10월 21일에 마지막으로 확인했어요. 일반 정보이며 의학적 조언이 아니고, 의료 전문가의 검토를 받지 않았어요.</p><ul><li><a href="https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/" rel="noopener">NHS: Your baby’s movements (페이지 최종 검토 2024년 7월 8일)</a></li><li><a href="https://countthekicks.org/faq/" rel="noopener">Count the Kicks: Frequently asked questions</a></li><li><a href="taedong-seneun-bangbeop.html">아기 태동 세기: 언제 시작하고, 무엇이 정상이며, 언제 연락할까요</a></li></ul></section>
 </main>
 <footer><div class="wrap">
 <nav aria-label="바닥글"><a href="guide.html">Pataditas 사용법</a><a href="taedong-seneun-bangbeop.html">아기 태동 세기</a><a href="privacy.html">개인정보 처리방침</a><a href="support.html">지원</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">이용 약관(Apple EULA)</a><a href="mailto:hola@rutmia.com">문의: hola@rutmia.com</a><a href="https://www.instagram.com/pataditasapp/" rel="noopener">Instagram · @pataditasapp</a><a href="https://www.facebook.com/pataditasapp/" rel="noopener">Facebook · Pataditas</a></nav>

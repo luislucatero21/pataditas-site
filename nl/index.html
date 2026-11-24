@@ -96,7 +96,10 @@
   "availability": "https://schema.org/InStock",
   "url": "https://apps.apple.com/app/id6821734683"
  },
- "softwareVersion": "1.3",
+ "softwareVersion": "1.5",
+ "sameAs": [
+  "https://apps.apple.com/app/id6821734683"
+ ],
  "featureList": [
   "Bewegingen vastleggen",
   "Weeëntimer",
@@ -105,6 +108,8 @@
   "Privé iCloud-sync",
   "Apple Watch-app en complicaties",
   "Snel vastleggen via widgets, liveactiviteit, Siri en het bedieningspaneel",
+  "Delen met je partner, alleen bekijken op diens iPhone (Plus)",
+  "Kies hoe je baby eruitziet: huidskleur en haar",
   "Beschikbaar in 11 talen"
  ],
  "installUrl": "https://apps.apple.com/app/id6821734683",
@@ -202,7 +207,7 @@
    "name": "Wat kost Pataditas?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Tellen is voor altijd gratis. Pataditas Plus voegt patroonanalyse met grafieken en een PDF-rapport voor je arts toe. Kies de Zwangerschapspas, een eenmalige betaling van € 8,99 die je hele zwangerschap dekt, geen verlenging kent en met je gezin gedeeld kan worden, of Plus maandelijks voor € 3,99 per maand met 7 dagen gratis proefperiode. Je kunt het abonnement op elk moment opzeggen in de Instellingen van je iPhone."
+    "text": "Tellen is voor altijd gratis. Pataditas Plus voegt patroonanalyse met grafieken, een PDF-rapport voor je arts en delen met je partner toe. Kies de Zwangerschapspas, een eenmalige betaling van € 8,99 die je hele zwangerschap dekt, geen verlenging kent en met je gezin gedeeld kan worden, of Plus maandelijks voor € 3,99 per maand met 7 dagen gratis proefperiode. Je kunt het abonnement op elk moment opzeggen in de Instellingen van je iPhone."
    }
   },
   {
@@ -215,10 +220,26 @@
   },
   {
    "@type": "Question",
+   "name": "Kan mijn partner de bewegingen zien die ik vastleg?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Ja, met Pataditas Plus. Stuur je partner een uitnodigingslink; die werkt voor één persoon, de eerste die hem opent. Op de eigen iPhone, met iCloud en Pataditas, ziet je partner je bewegingen, geschiedenis, patronen, het PDF-rapport, de naam van je baby, de week en het doel, alleen om te bekijken. Je partner kan niets vastleggen of wijzigen en ziet je weeën en notities niet. Je partner kan een eigen live-activiteit en meldingen aanzetten wanneer je begint met tellen en wanneer je het doel haalt. Het delen gaat via iCloud-delen van Apple en de ontwikkelaar kan het niet zien. Je partner betaalt niets. Als je stopt met delen, komen er geen nieuwe gegevens meer bij, maar wat je partner al heeft gezien, kan niet worden teruggehaald."
+   }
+  },
+  {
+   "@type": "Question",
    "name": "Welke apparaten en talen worden ondersteund?",
    "acceptedAnswer": {
     "@type": "Answer",
     "text": "Pataditas werkt op iPhone met iOS 26 of nieuwer en op Apple Watch met watchOS 26 of nieuwer. De app is beschikbaar in 11 talen: Engels, Spaans, Braziliaans Portugees, Duits, Frans, Italiaans, Japans, Koreaans, vereenvoudigd Chinees, Nederlands en Albanees."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Wat betekent de naam Pataditas?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "‘Pataditas’ is Mexicaans Spaans voor ‘kleine schopjes’. De app wordt in Mexico gemaakt door Kaelux, opgericht door Luis Angel Lucatero Villanueva."
    }
   }
  ]
@@ -303,7 +324,7 @@
  "about": {
   "@id": "https://www.pataditasapp.com/nl/#app"
  },
- "dateModified": "2026-11-10"
+ "dateModified": "2026-11-24"
 }
 </script>
 </head>
@@ -343,21 +364,22 @@
 </div></section>
 
 <section id="features"><div class="wrap">
-<h2>Wat zit er in Pataditas</h2><p class="sub">Voor de tweede helft van de zwangerschap. Tellen is gratis; Plus voegt patronen en het PDF-rapport toe.</p>
+<h2>Wat zit er in Pataditas</h2><p class="sub">Voor de tweede helft van de zwangerschap. Tellen is gratis; Plus voegt patronen, het PDF-rapport en delen met je partner toe.</p>
 <div class="grid">
 <article class="card"><span class="dot" style="background:#9CC5AE" aria-hidden="true"></span><h3>Eén tik per beweging</h3><p>Tik telkens als je baby beweegt. Er is geen sessie om te starten of te stoppen.</p></article>
 <article class="card"><span class="dot" style="background:#F6C9A8" aria-hidden="true"></span><h3>Schopje, draai of hik</h3><p>Kies wat je voelde. De hik wordt bewaard in je geschiedenis, maar telt niet mee voor de 10.</p></article>
 <article class="card"><span class="dot" style="background:#B9A8E0" aria-hidden="true"></span><h3>10 in 2 uur</h3><p>Pataditas herkent 10 bewegingen binnen 2 uur en markeert dat met een korte animatie.</p></article>
-<article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>Tijdlijn van 24 uur</h3><p>Zie je hele dag in één oogopslag, met een geschiedenis van alle dagen daarvoor.</p></article>
+<article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>Tijdlijn van 24 uur</h3><p>Zie je hele dag in één oogopslag, met een geschiedenis die per dag is gegroepeerd.</p></article>
 <article class="card"><span class="dot" style="background:#9CC5AE" aria-hidden="true"></span><h3>Je vastgelegde patronen</h3><p>Vergelijk de bewegingen die je vandaag hebt vastgelegd met je eerdere dagen. Ontbrekende registraties kunnen de vergelijking beïnvloeden; het is geen medische beoordeling.</p></article>
 <article class="card"><span class="dot" style="background:#B9A8E0" aria-hidden="true"></span><h3>Patronen en grafieken</h3><p>Meest actieve moment van de dag, trends en weekdagen. Onderdeel van Pataditas Plus.</p></article>
 <article class="card"><span class="dot" style="background:#F6C9A8" aria-hidden="true"></span><h3>PDF-rapport voor je zorgverlener</h3><p>Neem een overzichtelijke samenvatting mee naar je volgende afspraak. Onderdeel van Pataditas Plus.</p></article>
+<article class="card"><span class="dot" style="background:#9CC5AE" aria-hidden="true"></span><h3>Delen met je partner</h3><p>Je partner volgt je bewegingen, geschiedenis en zwangerschapsweek op de eigen iPhone, alleen om te bekijken. Je partner betaalt niets. Onderdeel van Pataditas Plus.</p></article>
 <article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>Weeëntimer</h3><p>Tijd je weeën en krijg een melding als je het 5-1-1-patroon bereikt.</p></article>
 <article class="card"><span class="dot" style="background:#9CC5AE" aria-hidden="true"></span><h3>Week en grootte van je baby</h3><p>Volg je zwangerschapsweek en zie hoe groot je baby is.</p></article>
 <article class="card"><span class="dot" style="background:#B9A8E0" aria-hidden="true"></span><h3>Overal vastleggen</h3><p>Widgets op je beginscherm en toegangsscherm, het bedieningspaneel, Siri en de actieknop.</p></article>
 <article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>Apple Watch-app</h3><p>Leg bewegingen vast vanaf je pols, met complicaties op je wijzerplaat voor snelle toegang.</p></article>
 <article class="card"><span class="dot" style="background:#F6C9A8" aria-hidden="true"></span><h3>Dagelijkse herinnering</h3><p>Een melding op het moment dat jij kiest, om eraan te denken bewegingen vast te leggen.</p></article>
-<article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>Aquarelillustraties</h3><p>Baby’s in aquarel in blauwe, roze of neutrale tinten, voor jongen, meisje of verrassing.</p></article>
+<article class="card"><span class="dot" style="background:#E6B5C6" aria-hidden="true"></span><h3>Aquarelillustraties</h3><p>Baby’s in aquarel voor jongen, meisje of verrassing. Kies de huidskleur en het haar van je baby; dezelfde baby verschijnt in de widgets, de live-activiteit en op de Apple Watch.</p></article>
 </div></div></section>
 
 <section class="band"><div class="wrap split rev">
@@ -367,6 +389,8 @@
 </div></section>
 
 <section id="apple-watch"><div class="wrap narrow"><h2>Een schopjesteller op je Apple Watch</h2><p>Pataditas bevat een bijbehorende Apple Watch-app (watchOS 26 of nieuwer). Tik op je horloge telkens als je een beweging voelt, en voeg Pataditas toe aan je wijzerplaat of slimme stapel voor snelle toegang. Registraties synchroniseren met de iPhone-app via je privé-iCloud.</p><p class="note">De Watch-app werkt samen met de iPhone-app, die je downloadt in de App Store.</p></div></section>
+
+<section id="partner" class="band"><div class="wrap narrow"><h2>Deel het tellen met je partner</h2><p>Met Pataditas Plus stuur je je partner een uitnodigingslink. Op de eigen iPhone, met iCloud en Pataditas, ziet je partner je bewegingen, geschiedenis, patronen, het PDF-rapport, de naam van je baby, de zwangerschapsweek en je doel, alleen om te bekijken: je partner kan niets vastleggen of wijzigen en ziet nooit je weeën of notities.</p><p>Als je partner wil, kan die een eigen live-activiteit en meldingen aanzetten wanneer je begint met tellen en wanneer je het doel haalt. Wat je vastlegt op het toegangsscherm, met Siri, in het bedieningspaneel of op de Apple Watch komt aan zonder dat je de app opent. De link is voor één persoon: de eerste die hem opent. Alles gaat via iCloud-delen van Apple; de ontwikkelaar kan het niet zien. Je partner betaalt niets.</p><p><a href="guide.html#partner">Zo nodig je je partner uit →</a></p></div></section>
 
 <section><div class="wrap">
 <h2>Illustraties voor jongen, meisje of verrassing</h2><p class="sub">Kies jongen, meisje of verrassing en de hele app wordt er passend bij geschilderd.</p>
@@ -383,16 +407,17 @@
 <article class="card"><h3>Geen reclame, geen tracking</h3><p>Geen reclame en geen tracking-SDK’s. Anonieme gebruiksstatistieken staan standaard uit en doe je alleen mee als je dat zelf kiest.</p></article>
 <article class="card"><h3>Op je iPhone en in je iCloud</h3><p>Alles wordt bewaard op je iPhone en in je eigen privé-iCloud (CloudKit). De ontwikkelaar kan het niet zien.</p></article>
 <article class="card"><h3>Aankopen via Apple</h3><p>Betalingen worden volledig door Apple afgehandeld. We zien nooit je betaalgegevens.</p></article>
+<article class="card"><h3>Delen alleen als jij dat kiest</h3><p>Als je kiest om met je partner te delen, krijgt de iPhone van je partner via iCloud-delen van Apple een kopie die alleen te bekijken is. Weeën en notities worden nooit gedeeld.</p></article>
 </div>
 <p style="margin-top:20px"><a href="privacy.html">Lees het volledige privacybeleid →</a></p>
 </div></section>
 
 <section id="pricing"><div class="wrap">
-<h2>Tellen is altijd gratis</h2><p class="sub">Leg bewegingen vast, bekijk je tijdlijn en ontvang de viering bij 10 in 2 uur, helemaal gratis. Plus voegt patroongrafieken, het PDF-rapport en je volledige geschiedenis toe.</p>
+<h2>Tellen is altijd gratis</h2><p class="sub">Leg bewegingen vast, bekijk je tijdlijn en ontvang de viering bij 10 in 2 uur, helemaal gratis. Plus voegt patroongrafieken, het PDF-rapport, je volledige geschiedenis en delen met je partner toe.</p>
 <div class="plans">
 <article class="card plan"><h3>Gratis</h3><div class="price">€ 0</div><p>Altijd gratis</p><ul><li>Onbeperkt bewegingen vastleggen</li><li>Herkenning van 10 in 2 uur</li><li>Tijdlijn van 24 uur en 7 dagen geschiedenis</li><li>Weeëntimer</li><li>Widgets, Siri en actieknop</li></ul></article>
-<article class="card plan feat"><h3>Zwangerschapspas</h3><div class="price">€ 8,99</div><p>Eenmalige betaling · Aanbevolen</p><ul><li>Pataditas Plus voor je hele zwangerschap</li><li>Geen verlenging</li><li>Te delen met je gezin</li><li>Alles uit Gratis</li></ul></article>
-<article class="card plan"><h3>Pataditas Plus</h3><div class="price">€ 3,99 / maand</div><p>7 dagen gratis · altijd opzegbaar</p><ul><li>Patroonanalyse en grafieken</li><li>PDF-rapport voor je zorgverlener</li><li>Volledige geschiedenis van je zwangerschap</li><li>Alles uit Gratis</li></ul></article>
+<article class="card plan feat"><h3>Zwangerschapspas</h3><div class="price">€ 8,99</div><p>Eenmalige betaling · Aanbevolen</p><ul><li>Pataditas Plus voor je hele zwangerschap</li><li>Geen verlenging</li><li>Te delen met je gezin</li><li>Delen met je partner</li><li>Alles uit Gratis</li></ul></article>
+<article class="card plan"><h3>Pataditas Plus</h3><div class="price">€ 3,99 / maand</div><p>7 dagen gratis · altijd opzegbaar</p><ul><li>Patroonanalyse en grafieken</li><li>PDF-rapport voor je zorgverlener</li><li>Volledige geschiedenis van je zwangerschap</li><li>Delen met je partner</li><li>Alles uit Gratis</li></ul></article>
 </div>
 <p class="note">Prijzen voor Nederland in euro; de App Store toont de prijs in jouw land. De Zwangerschapspas is een eenmalige betaling zonder verlenging. Plus maandelijks wordt automatisch verlengd, tenzij je minstens 24 uur voor het einde van de periode opzegt. Zeg op elk moment op in de Instellingen van je iPhone.</p>
 <p class="cta-row"><a class="btn" href="https://apps.apple.com/app/apple-store/id6821734683?pt=128089042&amp;ct=web_nl&amp;mt=8" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.200 1.200 9.600.8 1.200 1.700 2.500 3 2.400 1.200 0 1.700-.8 3.100-.8 1.500 0 1.900.8 3.100.8 1.300 0 2.100-1.200 2.900-2.300.9-1.300 1.300-2.600 1.300-2.700-.1 0-2.700-1-2.700-3.200zM14.100 5.800c.6-.8 1.100-1.900.9-3-.9 0-2.100.6-2.700 1.400-.6.700-1.100 1.800-1 2.900 1.100.1 2.200-.5 2.800-1.300z"/></svg><span>Download in de App Store</span></a></p>
@@ -410,9 +435,11 @@
 <details id="faq-compare-entries"><summary>Hoe verhoudt Pataditas vandaag zich tot eerdere registraties?</summary><div><p>Na zeven dagen aan registraties laat Pataditas zien hoe de bewegingen die je vandaag hebt vastgelegd zich verhouden tot je eerdere dagen. Ontbrekende registraties kunnen de vergelijking beïnvloeden. De app kan niet alle bewegingen meten of zeggen of het goed gaat met je baby, en het is geen medische beoordeling.</p></div></details>
 <details id="faq-privacy"><summary>Zijn mijn gegevens privé?</summary><div><p>Ja. Er is geen account, geen reclame en geen tracking, en anonieme gebruiksstatistieken zijn optioneel en staan uit tenzij je ze zelf aanzet. Je gegevens blijven op je iPhone en in je eigen privé-iCloud (CloudKit). De ontwikkelaar kan ze niet zien. Lees het volledige <a href="privacy.html">privacybeleid</a>.</p></div></details>
 <details id="faq-offline"><summary>Werkt het offline? Wat doet iCloud?</summary><div><p>Ja, je kunt bewegingen vastleggen zonder verbinding. Als je bent ingelogd bij iCloud, synchroniseren je gegevens privé tussen je apparaten via je eigen iCloud-account, en synchroniseren je instellingen (zoals je naam en uitgerekende datum) via de iCloud-opslag voor sleutel-waardeparen. Geen van beide is voor ons zichtbaar.</p></div></details>
-<details id="faq-pricing"><summary>Wat kost Pataditas?</summary><div><p>Tellen is voor altijd gratis. Pataditas Plus voegt patroonanalyse met grafieken en een PDF-rapport voor je arts toe. Kies de Zwangerschapspas, een eenmalige betaling van € 8,99 die je hele zwangerschap dekt, geen verlenging kent en met je gezin gedeeld kan worden, of Plus maandelijks voor € 3,99 per maand met 7 dagen gratis proefperiode. Je kunt het abonnement op elk moment opzeggen in de Instellingen van je iPhone.</p></div></details>
+<details id="faq-pricing"><summary>Wat kost Pataditas?</summary><div><p>Tellen is voor altijd gratis. Pataditas Plus voegt patroonanalyse met grafieken, een PDF-rapport voor je arts en delen met je partner toe. Kies de Zwangerschapspas, een eenmalige betaling van € 8,99 die je hele zwangerschap dekt, geen verlenging kent en met je gezin gedeeld kan worden, of Plus maandelijks voor € 3,99 per maand met 7 dagen gratis proefperiode. Je kunt het abonnement op elk moment opzeggen in de Instellingen van je iPhone.</p></div></details>
 <details id="faq-apple-watch"><summary>Is er een schopjesteller voor Apple Watch?</summary><div><p>Ja. Pataditas heeft een bijbehorende Apple Watch-app (watchOS 26 of nieuwer): tik op je horloge telkens als je een beweging voelt, en voeg Pataditas toe aan je wijzerplaat of slimme stapel. Registraties synchroniseren met de iPhone-app via je privé-iCloud. De app werkt samen met de iPhone-app, die je downloadt in de App Store.</p></div></details>
+<details id="faq-partner"><summary>Kan mijn partner de bewegingen zien die ik vastleg?</summary><div><p>Ja, met Pataditas Plus. Stuur je partner een uitnodigingslink; die werkt voor één persoon, de eerste die hem opent. Op de eigen iPhone, met iCloud en Pataditas, ziet je partner je bewegingen, geschiedenis, patronen, het PDF-rapport, de naam van je baby, de week en het doel, alleen om te bekijken. Je partner kan niets vastleggen of wijzigen en ziet je weeën en notities niet. Je partner kan een eigen live-activiteit en meldingen aanzetten wanneer je begint met tellen en wanneer je het doel haalt. Het delen gaat via iCloud-delen van Apple en de ontwikkelaar kan het niet zien. Je partner betaalt niets. Als je stopt met delen, komen er geen nieuwe gegevens meer bij, maar wat je partner al heeft gezien, kan niet worden teruggehaald.</p></div></details>
 <details id="faq-devices-languages"><summary>Welke apparaten en talen worden ondersteund?</summary><div><p>Pataditas werkt op iPhone met iOS 26 of nieuwer en op Apple Watch met watchOS 26 of nieuwer. De app is beschikbaar in 11 talen: Engels, Spaans, Braziliaans Portugees, Duits, Frans, Italiaans, Japans, Koreaans, vereenvoudigd Chinees, Nederlands en Albanees.</p></div></details>
+<details id="faq-name"><summary>Wat betekent de naam Pataditas?</summary><div><p>‘Pataditas’ is Mexicaans Spaans voor ‘kleine schopjes’. De app wordt in Mexico gemaakt door Kaelux, opgericht door Luis Angel Lucatero Villanueva.</p></div></details>
 </div></section>
 
 <section><div class="wrap narrow">
@@ -423,7 +450,7 @@
 <div><h2>Begin met het volgende schopje</h2><p class="sub">Pataditas is gratis in de App Store. Download de app en tik de volgende keer dat je baby beweegt.</p><a class="btn alt" href="https://apps.apple.com/app/apple-store/id6821734683?pt=128089042&amp;ct=web_nl&amp;mt=8" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.9-.8-3.1-.8-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.200 1.200 9.600.8 1.200 1.700 2.500 3 2.400 1.200 0 1.700-.8 3.100-.8 1.500 0 1.900.8 3.100.8 1.300 0 2.100-1.200 2.900-2.300.9-1.300 1.300-2.600 1.300-2.700-.1 0-2.700-1-2.700-3.200zM14.100 5.800c.6-.8 1.100-1.900.9-3-.9 0-2.100.6-2.700 1.400-.6.700-1.100 1.800-1 2.900 1.100.1 2.200-.5 2.800-1.300z"/></svg><span>Download in de App Store</span></a><p class="note"><a href="guide.html">Bekijk hoe Pataditas werkt →</a></p></div>
 <div class="illus"><img loading="lazy" src="../assets/baby-celebrate.05bcc6c46e.webp" srcset="../assets/baby-celebrate-400.9c54fe8e1f.webp 400w, ../assets/baby-celebrate-500.d81126a110.webp 500w, ../assets/baby-celebrate-660.71f107b146.webp 660w, ../assets/baby-celebrate.05bcc6c46e.webp 800w" sizes="(min-width:1040px) 486px, (min-width:820px) calc((100vw - 68px) / 2), calc(100vw - 40px)" width="800" height="800" alt="Aquarel van een baby die het viert"></div>
 </div></section>
-<section class="wrap sources"><h2>Bronnen en reikwijdte</h2><p>Productinformatie van Kaelux · Bijgewerkt op 21 oktober 2026. Medische uitspraken op deze pagina komen uit de onderstaande bronnen (in het Engels) en zijn voor het laatst gecontroleerd op 21 oktober 2026. Dit is algemene informatie, geen medisch advies, en het is niet beoordeeld door een arts.</p><ul><li><a href="https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/" rel="noopener">NHS: Your baby’s movements (pagina voor het laatst beoordeeld op 8 juli 2024; bron in het Engels)</a></li><li><a href="https://countthekicks.org/faq/" rel="noopener">Count the Kicks: Frequently asked questions (bron in het Engels)</a></li><li><a href="schopjes-tellen.html">Schopjes tellen: wanneer beginnen, wat is normaal, wanneer bellen</a></li></ul></section>
+<section class="wrap sources"><h2>Bronnen en reikwijdte</h2><p>Productinformatie van Kaelux · Bijgewerkt op 24 november 2026. Medische uitspraken op deze pagina komen uit de onderstaande bronnen (in het Engels) en zijn voor het laatst gecontroleerd op 21 oktober 2026. Dit is algemene informatie, geen medisch advies, en het is niet beoordeeld door een arts.</p><ul><li><a href="https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/" rel="noopener">NHS: Your baby’s movements (pagina voor het laatst beoordeeld op 8 juli 2024; bron in het Engels)</a></li><li><a href="https://countthekicks.org/faq/" rel="noopener">Count the Kicks: Frequently asked questions (bron in het Engels)</a></li><li><a href="schopjes-tellen.html">Schopjes tellen: wanneer beginnen, wat is normaal, wanneer bellen</a></li></ul></section>
 </main>
 <footer><div class="wrap">
 <nav aria-label="Voettekst"><a href="guide.html">Zo gebruik je Pataditas</a><a href="schopjes-tellen.html">Schopjes tellen</a><a href="privacy.html">Privacybeleid</a><a href="support.html">Ondersteuning</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">Gebruiksvoorwaarden (Apple EULA)</a><a href="mailto:hola@rutmia.com">Contact: hola@rutmia.com</a><a href="https://www.instagram.com/pataditasapp/" rel="noopener">Instagram · @pataditasapp</a><a href="https://www.facebook.com/pataditasapp/" rel="noopener">Facebook · Pataditas</a></nav>
